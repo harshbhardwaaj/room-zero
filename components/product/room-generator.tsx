@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 
 import { icons } from "@/lib/icons";
+import { stashRoom } from "@/lib/session-rooms";
 import { cn } from "@/lib/utils";
 
 type GenState =
@@ -62,11 +63,16 @@ export function RoomGenerator({ className }: { className?: string }) {
         });
         return;
       }
-      const id: string | undefined = data?.room?.id ?? data?.id;
+      const room = data?.room ?? data;
+      const id: string | undefined = room?.id;
       if (!id) {
         setState({ status: "error", message: "The pipeline returned no room." });
         return;
       }
+      // Keep the room the response already handed us. On a deployed build the
+      // server could not write it to disk, so the page we are about to open
+      // would find nothing there; this is the only copy that exists.
+      stashRoom(room);
       router.push(`/rooms/${id}`);
     } catch {
       setState({ status: "error", message: "Could not reach the pipeline. Is the app running?" });

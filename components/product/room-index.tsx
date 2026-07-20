@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { AppShell } from "@/components/app-shell";
 import { RoomGenerator } from "@/components/product/room-generator";
@@ -8,9 +8,11 @@ import { roomGenerationEnabled } from "@/lib/features";
 import { FitRing } from "@/components/product/fit-ring";
 import { TransitionLink } from "@/components/view-transition-link";
 import { formatBand, formatRoomStatus } from "@/lib/formatters";
+import { isThinRead } from "@/lib/grounding";
 import { icons } from "@/lib/icons";
+import { readStashedRooms } from "@/lib/session-rooms";
 import { cn } from "@/lib/utils";
-import type { RoomStatus, RoomSummary } from "@/types/room";
+import { toRoomSummary, type RoomStatus, type RoomSummary } from "@/types/room";
 
 type StatusFilter = "all" | RoomStatus;
 type SortKey = "fit" | "recent";
@@ -33,9 +35,26 @@ const STATUS_STYLE: Record<RoomStatus, string> = {
 export function RoomIndex({ rooms }: { rooms: RoomSummary[] }) {
   const [status, setStatus] = useState<StatusFilter>("all");
   const [sort, setSort] = useState<SortKey>("fit");
+  const [stashed, setStashed] = useState<RoomSummary[]>([]);
+
+  // Rooms generated on a deployed build never reached the server store, so the
+  // list the server rendered does not know about them and coming back here from
+  // one would look like it had been thrown away. Read them after mount, not
+  // during render: the server has no sessionStorage and mismatched markup
+  // breaks hydration.
+  useEffect(() => {
+    const known = new Set(rooms.map((r) => r.id));
+    setStashed(
+      readStashedRooms()
+        .filter((r) => !known.has(r.id))
+        .map((r) => toRoomSummary(r, isThinRead(r))),
+    );
+  }, [rooms]);
+
+  const all = useMemo(() => [...rooms, ...stashed], [rooms, stashed]);
 
   const visible = useMemo(() => {
-    const filtered = rooms.filter((r) => (status === "all" ? true : r.status === status));
+    const filtered = all.filter((r) => (status === "all" ? true : r.status === status));
     // Live pipeline runs always outrank hand-authored fixtures, whichever sort
     // is active. Sorting purely by fit put a design fixture at the top of the
     // page, so the first room anyone opened was one the pipeline never actually
@@ -51,10 +70,10 @@ export function RoomIndex({ rooms }: { rooms: RoomSummary[] }) {
         : new Date(b.generatedAt).getTime() - new Date(a.generatedAt).getTime();
     });
     return sorted;
-  }, [rooms, status, sort]);
+  }, [all, status, sort]);
 
-  const liveCount = rooms.filter((r) => !r.isSample).length;
-  const sampleCount = rooms.length - liveCount;
+  const liveCount = all.filter((r) => !r.isSample).length;
+  const sampleCount = all.length - liveCount;
   const ArrowRight = icons.action;
   const MapPin = icons.location;
 
