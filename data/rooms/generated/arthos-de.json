@@ -1,0 +1,221 @@
+{
+  "id": "arthos-de",
+  "firm": {
+    "name": "ARTHOS",
+    "url": "https://arthos.de/",
+    "oneLiner": "ARTHOS is an independent, owner-managed M&A advisory firm in Munich that provides corporate finance and end to end M&A advice.",
+    "teamSizeEstimate": 2,
+    "cities": [
+      "München"
+    ],
+    "services": [
+      "M&A-Beratung",
+      "Corporate Finance",
+      "Unternehmenskauf",
+      "Unternehmensverkauf",
+      "Carve-outs",
+      "Buy and Build",
+      "Add-on Akquisitionen",
+      "IPOs",
+      "Secondaries",
+      "PE/VC Fund Raising",
+      "Due Diligence",
+      "LOI- und Kaufvertragsverhandlung",
+      "Aufsetzen virtueller Datenräume"
+    ],
+    "sectors": [
+      "Digitale Medien",
+      "Informationstechnologie",
+      "High-Tech-Industrie",
+      "Software",
+      "IT-Consulting",
+      "Halbleiterindustrie",
+      "Optische Technologien",
+      "Kommunikationstechnologien",
+      "Digitales Marketing",
+      "Data & Analytics",
+      "Digital Media / Commerce",
+      "Marketing Technologie",
+      "Agentur & Marketing Services",
+      "Elektro- und Elektronikindustrie",
+      "Ingenieurdienstleistungen",
+      "Sensorik und Automatisierung",
+      "Maschinen- und Anlagenbau",
+      "Zulieferindustrien"
+    ],
+    "tombstoneCount": 150,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": true,
+      "hasClientPortal": false,
+      "evidence": [
+        "\"unterstützen wir Sie aktiv bei der Umsetzung vieler Aufgaben, etwa dem Aufsetzen eines virtuellen Datenraumes\""
+      ]
+    },
+    "fitNotes": [
+      "Strong fit for an AI-native M&A platform because they run a clearly structured 360 degree process across sourcing, diligence, negotiation, and integration.",
+      "They explicitly mention virtual data rooms and project management tools, which suggests room for workflow automation and document intelligence.",
+      "Their focus on digital media, IT, software, and high-tech makes them a good match for AI-assisted buyer targeting and sector research.",
+      "They emphasize partner-led, confidential advisory, so any platform pitch should stress control, transparency, and time savings rather than replacing judgment."
+    ],
+    "provenance": {
+      "sourceUrl": "https://arthos.de/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Arne Tödt",
+      "role": "Managing Partner",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Managing Partner at ARTHOS",
+          "summary": "Listed as one of the managing partners of ARTHOS.",
+          "sourceUrl": "https://arthos.de/ueber-uns/"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: would likely care about deal execution quality and confidentiality.",
+        "Inference: may value tools that support partner-led workflows and reduce manual coordination.",
+        "Inference: likely interested in better buyer reach in international transactions."
+      ],
+      "provenance": {
+        "sourceUrl": "https://arthos.de/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Arno Pätzold",
+      "role": "Managing Partner",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Managing Partner at ARTHOS",
+          "summary": "Listed as one of the managing partners of ARTHOS.",
+          "sourceUrl": "https://arthos.de/ueber-uns/"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: would likely care about maintaining high advisory quality and control over process.",
+        "Inference: may value tools that help structure transactions and improve efficiency.",
+        "Inference: likely interested in sector-specific insights for digital and technology deals."
+      ],
+      "provenance": {
+        "sourceUrl": "https://arthos.de/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Vision M&A-Markt: KI-Boom treibt Aktienmärkte und Vision M&A-Transaktionen",
+      "detail": "ARTHOS published an Industry Insight on the Vision sector.",
+      "date": "2026-07-07",
+      "sourceUrl": "https://arthos.de/news"
+    },
+    {
+      "type": "content",
+      "title": "Semiconductor M&A-Markt: KI-Boom befeuert M&A-Transaktionen und treibt Börsenbewertungen an",
+      "detail": "ARTHOS published an Industry Insight on semiconductor M&A.",
+      "date": "2026-07-06",
+      "sourceUrl": "https://arthos.de/news"
+    },
+    {
+      "type": "content",
+      "title": "Software M&A-Markt: IT-Infrastruktur: Das Rückgrat der KI-Ära erzielt Premiumpreise",
+      "detail": "ARTHOS published a Software M&A Report Q2 2026.",
+      "date": "2026-06-25",
+      "sourceUrl": "https://arthos.de/news"
+    },
+    {
+      "type": "content",
+      "title": "CROSSING BRIDGES, ARTHOS auf der AICA-EMEA-Konferenz in Basel",
+      "detail": "ARTHOS noted participation in the AICA EMEA conference in Basel.",
+      "date": "2025-10-14",
+      "sourceUrl": "https://arthos.de/news"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the fact that ARTHOS already supports clients with setting up a virtual data room, because that makes Fintalo feel like a practical upgrade rather than a category lesson. Position Fintalo as a way to replace the email, Excel and scattered-data-room workflow with one secure operating system for NDA handling, buyer management, staged document release and collaboration. Avoid broad AI hype, and avoid implying they need help with M&A basics, since they already run end to end mandates and likely care most about control, confidentiality and speed.",
+    "objections": [
+      {
+        "objection": "We already have a process and tools for data rooms and deal management.",
+        "counter": "That makes sense. Fintalo is not meant to replace your advisory process, just to consolidate the manual pieces around it so the team spends less time coordinating across email, Excel and separate tools."
+      },
+      {
+        "objection": "We are a small, partner-led firm, so adding software can create more overhead.",
+        "counter": "Understood. The goal would be a very short demo focused on whether it saves time on live mandates without adding process weight."
+      },
+      {
+        "objection": "Confidentiality is critical, and we are cautious about new platforms.",
+        "counter": "Absolutely. Fintalo is built for secure deal collaboration and controlled document release, so we would only suggest it if it fits your confidentiality standards."
+      }
+    ],
+    "openingEmail": {
+      "subject": "Quick idea for your virtual data room workflow",
+      "body": "Hi ARTHOS team,\n\nI noticed you support clients with setting up a virtual data room. Fintalo is an AI-native M&A operating system that replaces the email, Excel and scattered-data-room sprawl around a deal with one secure platform for NDA workflows, buyer management and stage-gated document release.\n\nGiven the kind of mandates you run, I thought it might be worth a quick look. Would you be open to a short demo next week to see whether it could save your team time on live processes?\n\nBest,",
+      "groundedFact": "I noticed you support clients with setting up a virtual data room.",
+      "groundedFactSourceUrl": "https://arthos.de/news"
+    }
+  },
+  "score": {
+    "total": 65,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 10,
+        "max": 35,
+        "rationale": "runs data rooms (warm to the category)"
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 25,
+        "max": 25,
+        "rationale": "150+ tombstones: a busy, active dealmaker."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 10,
+        "max": 20,
+        "rationale": "~2 people: very small, so fewer seats and a faster decision."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "4 live \"why now\" signal(s); 2 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:17:40.003Z",
+  "sources": [
+    "https://arthos.de/",
+    "https://arthos.de/ueber-uns/",
+    "https://arthos.de/referenzen/",
+    "https://arthos.de/leistungen/",
+    "https://arthos.de/news",
+    "https://www.arthos.de/ueber-uns/"
+  ],
+  "unverified": [
+    "team_size_estimate, only two named partners are shown on the team page, broader headcount not stated.",
+    "fit_notes, no explicit client portal or buyer-facing platform found.",
+    "people, only two senior decision-makers are named on the site, no additional partner bios provided.",
+    "signals, only published content and conference mention found, no hiring, awards, or office move stated."
+  ],
+  "isSample": false
+}

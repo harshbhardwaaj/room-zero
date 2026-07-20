@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232 48" role="img" aria-label="Fintalo" fill="none">
+  <rect x="2" y="9" width="30" height="30" rx="9" fill="#0C1242"/>
+  <path d="M12 18 L17 24 L12 30" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="24" r="2.4" fill="#FFFFFF"/>
+  <text x="46" y="33" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.5" fill="#0C1242">Fintalo</text>
+</svg>

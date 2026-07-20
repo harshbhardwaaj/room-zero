@@ -1,0 +1,233 @@
+{
+  "id": "saxenhammer-co-com",
+  "firm": {
+    "name": "Saxenhammer",
+    "url": "https://saxenhammer-co.com/",
+    "oneLiner": "M&A and corporate finance advisory for mid-market entrepreneurs and the German Mittelstand, with services spanning company sales, acquisitions, mergers, special situations, valuation, financing, and equity raising.",
+    "teamSizeEstimate": 35,
+    "cities": [
+      "Berlin",
+      "Frankfurt",
+      "München",
+      "Zürich",
+      "London"
+    ],
+    "services": [
+      "Unternehmensverkauf und Nachfolge",
+      "Unternehmenskauf",
+      "Unternehmenszusammenschluss",
+      "Sondersituationen",
+      "Unternehmensbewertung",
+      "Unternehmensfinanzierung",
+      "Eigenkapitalbeschaffung",
+      "Corporate Finance",
+      "Debt Advisory"
+    ],
+    "sectors": [
+      "Automobilindustrie",
+      "Technologie (TMT und Software)",
+      "Industrieprodukte und -dienstleistungen",
+      "Konsumgüter und Handel",
+      "Healthcare und Life Sciences",
+      "Chemische Industrie",
+      "Real Estate und Bauwirtschaft",
+      "Green Energy und Infrastructure"
+    ],
+    "tombstoneCount": 450,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear fit for an AI-native deal platform because they run full-process M&A work, including investor search, process materials, and ongoing documentation.",
+      "They emphasize speed, structured methods, and data-driven tools, which suggests openness to workflow automation.",
+      "They handle many transactions across multiple sectors, so a platform that improves sourcing, diligence, and process tracking could be relevant.",
+      "No explicit data room or client portal is mentioned on the site, so those workflow gaps are unverified."
+    ],
+    "provenance": {
+      "sourceUrl": "https://saxenhammer-co.com/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Christian Saxenhammer",
+      "role": "Gründer & CEO",
+      "focus": "Founder and senior leadership",
+      "footprint": [
+        {
+          "kind": "quote",
+          "title": "Firmenwert-Rechner page quote",
+          "summary": "Quoted saying, \"Wir verstehen Unternehmer, weil wir selbst Unternehmer sind.\"",
+          "sourceUrl": "https://www.saxenhammer-co.com/de/unternehmenswertrechner/"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: would care about speed, control, and a founder-friendly client experience.",
+        "Inference: likely values tools that reinforce entrepreneurial positioning and improve deal execution quality."
+      ],
+      "provenance": {
+        "sourceUrl": "https://saxenhammer-co.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Nicholas Hanser",
+      "role": "Managing Partner",
+      "focus": "Senior leadership",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "News page mention",
+          "summary": "Named as one of the Managing Partners who will speak at the NOAH Conference.",
+          "sourceUrl": "https://saxenhammer-co.com/de/news/",
+          "date": "2024-06-03"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: likely focused on market visibility, cross-border reach, and transaction origination.",
+        "Inference: likely cares about scalable deal execution across a broad mid-market pipeline."
+      ],
+      "provenance": {
+        "sourceUrl": "https://saxenhammer-co.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Martin Neumann",
+      "role": "Managing Partner",
+      "focus": "Senior leadership",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "News page mention",
+          "summary": "Named as one of the Managing Partners who will speak at the NOAH Conference.",
+          "sourceUrl": "https://saxenhammer-co.com/de/news/",
+          "date": "2024-06-03"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: likely focused on transaction execution quality and investor access.",
+        "Inference: likely cares about tools that support repeatable process management."
+      ],
+      "provenance": {
+        "sourceUrl": "https://saxenhammer-co.com/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "office_move",
+      "title": "Eröffnungsfeier Office Zürich",
+      "detail": "Official opening of the new Zurich location.",
+      "date": "2025-01-30",
+      "sourceUrl": "https://saxenhammer-co.com/de/news/"
+    },
+    {
+      "type": "press",
+      "title": "Saxenhammer übernimmt Team von Clairfield Deutschland",
+      "detail": "The firm says it is expanding its strong mid-market M&A position by integrating the Frankfurt team of Clairfield Deutschland.",
+      "date": "2025-07-01",
+      "sourceUrl": "https://saxenhammer-co.com/de/news/"
+    },
+    {
+      "type": "award",
+      "title": "Mergermarket ranking improvement",
+      "detail": "Ranked 8th in the 2024 annual Mergermarket ranking, up from 11th.",
+      "date": "2025-01-09",
+      "sourceUrl": "https://saxenhammer-co.com/de/news/"
+    },
+    {
+      "type": "content",
+      "title": "Event Übersicht 2026",
+      "detail": "Announcement that Saxenhammer will offer numerous events in 2026.",
+      "date": "2026-12-31",
+      "sourceUrl": "https://saxenhammer-co.com/de/news/"
+    }
+  ],
+  "play": {
+    "angle": "Lead with their execution style, not generic M&A tech talk. Saxenhammer explicitly says it accompanies entrepreneurs through the full M&A process and keeps process progress and negotiation status continuously documented and communicated, which makes Fintalo relevant as a way to centralize NDA flow, buyer management, document release, and deal intelligence without adding more email and Excel sprawl. Avoid pitching as a replacement for their advisory judgment or sounding like a generic CRM, and do not overemphasize a client portal angle since there is no evidence they use one today.",
+    "objections": [
+      {
+        "objection": "We already manage deals well with email, Excel, and our internal process.",
+        "counter": "That usually works until volume, parallel workstreams, or confidentiality pressure increases. Fintalo is meant to reduce manual coordination and make the existing process cleaner, not force a new advisory method."
+      },
+      {
+        "objection": "Our process is bespoke, so software may not fit how we run transactions.",
+        "counter": "That is fair, and the platform should adapt to the way you stage documents, manage buyers, and track status. The value is in making bespoke execution easier to repeat, not standardizing away your process."
+      },
+      {
+        "objection": "We do not want anything that feels like a client portal project.",
+        "counter": "Understood. The demo can stay focused on advisor workflows, secure collaboration, and controlled document release, not a long implementation or a front-end portal rollout."
+      }
+    ],
+    "openingEmail": {
+      "subject": "A cleaner way to run full M&A processes",
+      "body": "Hi Christian,\n\nYou mention that Saxenhammer accompanies entrepreneurs through the full M&A process, and that process progress and negotiation status are continuously documented and communicated. Fintalo is built for exactly that kind of advisory workflow, centralizing NDA handling, buyer management, stage-gated document release, and deal intelligence in one place.\n\nWould you be open to a short demo to see whether it could reduce the email and Excel sprawl around your live mandates?\n\nBest,",
+      "groundedFact": "You mention that Saxenhammer accompanies entrepreneurs through the full M&A process, and that process progress and negotiation status are continuously documented and communicated.",
+      "groundedFactSourceUrl": "https://saxenhammer-co.com/de/news/"
+    }
+  },
+  "score": {
+    "total": 59,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 25,
+        "max": 25,
+        "rationale": "450+ tombstones: a busy, active dealmaker."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 14,
+        "max": 20,
+        "rationale": "~35 people: mid-size, still a strong fit."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "4 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:21:47.469Z",
+  "sources": [
+    "https://saxenhammer-co.com/",
+    "https://www.saxenhammer-co.com/de/ueber-uns/",
+    "https://www.saxenhammer-co.com/de/transaktionen/",
+    "https://www.saxenhammer-co.com/de/m-und-a-beratung/",
+    "https://www.saxenhammer-co.com/de/unternehmenswertrechner/",
+    "https://saxenhammer-co.com/de/news/"
+  ],
+  "unverified": [
+    "Exact legal entity name and preferred common brand spelling beyond Saxenhammer not explicitly standardized on the site.",
+    "team_size_estimate is approximate from the site claim of \"über 35 M&A-Experten\", not a full named headcount count.",
+    "tombstone_count uses the stated \"450+ abgeschlossene Transaktionen\" figure, while some pages also mention 400+ and 300+ in other contexts.",
+    "No explicit client portal or data room product is stated on the pages.",
+    "No separate office city page confirms whether all listed locations are active offices versus contact locations, though the site presents them as offices."
+  ],
+  "isSample": false
+}

@@ -1,0 +1,113 @@
+{
+  "id": "hansenadvisory-de",
+  "firm": {
+    "name": "HANSEN ADVISORY",
+    "url": "https://hansenadvisory.de/",
+    "oneLiner": "M&A advisory for the Mittelstand, based in Munich.",
+    "teamSizeEstimate": null,
+    "cities": [
+      "München"
+    ],
+    "services": [
+      "M&A-Beratung"
+    ],
+    "sectors": [
+      "Mittelstand"
+    ],
+    "tombstoneCount": null,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "The site only states a broad M&A advisory positioning, so the operating model is not visible from the page.",
+      "No transaction history, sectors beyond Mittelstand, or process tooling are shown, which limits qualification.",
+      "A deal platform could still fit if they run multiple live mandates, but that is not evidenced here."
+    ],
+    "provenance": {
+      "sourceUrl": "https://hansenadvisory.de/",
+      "verified": true
+    }
+  },
+  "people": [],
+  "signals": [],
+  "play": {
+    "angle": "Lead with the fact that Hansen Advisory focuses on M&A advisory for the Mittelstand, and position Fintalo as a way to make that kind of deal process cleaner for busy advisory teams. Since there are no strong tech signals here, avoid sounding like a generic software pitch or over-indexing on integrations. Keep it practical, partner-level, and centered on reducing email and Excel sprawl in live sell-side work.",
+    "objections": [
+      {
+        "objection": "We are a small advisory firm, so we do not need a full platform.",
+        "counter": "That is fair, Fintalo is built for lean deal teams as much as larger ones, especially when one person is juggling NDA flow, buyer tracking, and document release across multiple mandates."
+      },
+      {
+        "objection": "Our current process works fine with email and Excel.",
+        "counter": "That works until a process gets busier or more confidential. Fintalo is meant to replace the scattered parts without forcing a big process change, so the team can keep control while saving time."
+      },
+      {
+        "objection": "We do not want a heavy implementation.",
+        "counter": "Understood. The ask is just a short demo, and the platform is designed to be straightforward to evaluate before anyone commits to a rollout."
+      }
+    ],
+    "openingEmail": {
+      "subject": "Quick idea for Hansen Advisory",
+      "body": "Hi Hansen Advisory team,\n\nI saw that Hansen Advisory focuses on M&A advisory for the Mittelstand. Fintalo is an AI-native M&A operating system that helps advisory teams run NDA workflows, buyer management, and stage-gated document release in one place instead of across email and Excel.\n\nIf it is useful, I would be glad to show you a short demo and see whether it could fit the way you run deals.\n\nBest,",
+      "groundedFact": "I saw that Hansen Advisory focuses on M&A advisory for the Mittelstand."
+    }
+  },
+  "score": {
+    "total": 20,
+    "band": "long_shot",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 3,
+        "max": 25,
+        "rationale": "Deal count not stated on the public site."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 5,
+        "max": 20,
+        "rationale": "Team size not stated."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 0,
+        "max": 8,
+        "rationale": "No recent signals or public footprint found."
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:17:54.058Z",
+  "sources": [
+    "https://hansenadvisory.de/"
+  ],
+  "unverified": [
+    "team_size_estimate, headcount not stated",
+    "tombstone_count, no transactions shown",
+    "tech_signals, no process, data room, or client portal language found",
+    "people, no named decision-makers shown",
+    "signals, no dated or undated firm events found",
+    "services and sectors are only stated at a high level on the homepage"
+  ],
+  "isSample": false
+}

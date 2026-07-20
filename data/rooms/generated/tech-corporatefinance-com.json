@@ -1,0 +1,225 @@
+{
+  "id": "tech-corporatefinance-com",
+  "firm": {
+    "name": "KP Tech",
+    "url": "https://tech-corporatefinance.com/",
+    "oneLiner": "An owner-managed corporate finance boutique advising on M&A, corporate succession, company valuation, and private equity for clients in Germany, Austria, Switzerland, and beyond.",
+    "teamSizeEstimate": 4,
+    "cities": [
+      "Munich",
+      "Frankfurt",
+      "Dusseldorf",
+      "Berlin",
+      "London",
+      "San Francisco"
+    ],
+    "services": [
+      "Buying companies",
+      "Selling companies",
+      "Company succession",
+      "Company valuation",
+      "Private equity capital",
+      "Debt financing",
+      "Mezzanine financing"
+    ],
+    "sectors": [
+      "IT",
+      "Digital media",
+      "E-commerce",
+      "Industrial technology",
+      "Cleantech",
+      "Food",
+      "Healthcare",
+      "Technology",
+      "Services",
+      "Consumer"
+    ],
+    "tombstoneCount": null,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Strong fit for an AI-native deal platform because they run many cross-border mandates and emphasize speed, coordination, and research.",
+      "They explicitly mention in-house research with AI, so they may be open to workflow tools that improve sourcing and execution.",
+      "Their boutique model and personal handling by senior people suggests value in tools that reduce manual coordination without changing client-facing control.",
+      "No public evidence of a client portal or data room on these pages, so the opportunity is likely around process efficiency rather than replacing an existing platform."
+    ],
+    "provenance": {
+      "sourceUrl": "https://tech-corporatefinance.com/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Sandra Preuß",
+      "role": "Managing Director, Co-founder",
+      "focus": "Corporate finance and management consulting",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Management team",
+          "summary": "Listed as co-founder and managing director of KP Tech, with more than 22 years of experience in corporate finance and management consulting.",
+          "sourceUrl": "https://tech-corporatefinance.com/about-us/"
+        }
+      ],
+      "likelyPriorities": [
+        "Likely cares about preserving the boutique, personal advisory model.",
+        "Likely values tools that support efficient execution and client responsiveness.",
+        "Likely interested in maintaining high-quality cross-border transaction delivery."
+      ],
+      "provenance": {
+        "sourceUrl": "https://tech-corporatefinance.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Michael Klumpp",
+      "role": "Managing Director, Co-founder",
+      "focus": "Corporate finance consulting and private equity",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Management team",
+          "summary": "Listed as co-founder and managing director of KP Tech, with more than 25 years of experience in corporate finance consulting and private equity.",
+          "sourceUrl": "https://tech-corporatefinance.com/about-us/"
+        }
+      ],
+      "likelyPriorities": [
+        "Likely cares about deal execution speed and transaction quality.",
+        "Likely values tools that support private equity and M&A workflows.",
+        "Likely interested in leveraging the firm's international network effectively."
+      ],
+      "provenance": {
+        "sourceUrl": "https://tech-corporatefinance.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Frank Reining",
+      "role": "Associate Partner",
+      "focus": "Corporate finance consulting",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Management team",
+          "summary": "Listed as an associate partner with more than 22 years of experience in corporate finance consulting, and as a former CEO and supervisory board member.",
+          "sourceUrl": "https://tech-corporatefinance.com/about-us/"
+        }
+      ],
+      "likelyPriorities": [
+        "Likely cares about disciplined process management and negotiation support.",
+        "Likely values tools that help coordinate complex transactions.",
+        "Likely interested in maintaining senior-led client service."
+      ],
+      "provenance": {
+        "sourceUrl": "https://tech-corporatefinance.com/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "KP Tech Insights launched",
+      "detail": "The site says, \"New: Sector M&A and Corporate Finance Reports\" and introduces \"KP Tech Insights\" as a new format for current analyses.",
+      "sourceUrl": "https://tech-corporatefinance.com/"
+    },
+    {
+      "type": "content",
+      "title": "Seminars announced for 2026",
+      "detail": "The seminars page lists \"Intensive seminar: buying and selling companies\" on Thursday, 5 November 2026 in Munich, and \"corporate financing & company valuation\" on Thursday, 12 November 2026 in Munich.",
+      "date": "2026-11-05",
+      "sourceUrl": "https://tech-corporatefinance.com/"
+    },
+    {
+      "type": "content",
+      "title": "Seminars announced for 2026",
+      "detail": "The seminars page lists \"Intensive seminar: corporate financing & company valuation\" on Thursday, 12 November 2026 in Munich.",
+      "date": "2026-11-12",
+      "sourceUrl": "https://tech-corporatefinance.com/"
+    }
+  ],
+  "play": {
+    "angle": "KP Tech is a very relationship-led boutique, so lead with respect for the senior-led, personal way they run deals, not with a generic software pitch. The strongest hook is their own use of AI in in-house research, because it shows they already value modern tooling, but the outreach should frame Fintalo as something that reduces email and Excel sprawl without changing their boutique client experience. Avoid sounding like a process overhaul or a heavy enterprise platform, and keep the ask to a short demo focused on whether it could save time in live mandates.",
+    "objections": [
+      {
+        "objection": "We already keep things personal and senior-led, so a platform could add process overhead.",
+        "counter": "That is exactly the point to avoid. Fintalo is meant to support the senior-led workflow, not replace it, by keeping NDA, buyer management, document release, and deal communication in one place."
+      },
+      {
+        "objection": "We are a small boutique, so we do not need a full operating system.",
+        "counter": "Small teams often feel the pain first when deals live across email and spreadsheets. Fintalo is built for boutiques that want to stay lean while handling more mandates cleanly."
+      },
+      {
+        "objection": "We already use AI in research, but that does not mean we need another tool.",
+        "counter": "Fair. Fintalo is less about research and more about the execution layer around the deal, especially secure collaboration and stage-gated sharing."
+      }
+    ],
+    "openingEmail": {
+      "subject": "A quick idea for KP Tech",
+      "body": "Hi Sandra,\n\nI noticed KP Tech uses in-house research with modern software based on artificial intelligence. Since you already lean into practical tooling, I thought it might be worth showing you Fintalo, an AI-native M&A operating system that keeps NDA workflows, buyer management, and document release in one place instead of email and Excel.\n\nIt is built to support boutique, senior-led teams without changing the client experience. Would you be open to a short demo next week to see if it could save time on live mandates?\n\nBest,",
+      "groundedFact": "KP Tech uses in-house research with modern software based on artificial intelligence.",
+      "groundedFactSourceUrl": "https://tech-corporatefinance.com/"
+    }
+  },
+  "score": {
+    "total": 33,
+    "band": "long_shot",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 3,
+        "max": 25,
+        "rationale": "Deal count not stated on the public site."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 10,
+        "max": 20,
+        "rationale": "~4 people: very small, so fewer seats and a faster decision."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "3 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:22:40.300Z",
+  "sources": [
+    "https://tech-corporatefinance.com/",
+    "https://tech-corporatefinance.com/about-us/",
+    "https://tech-corporatefinance.com/transactions/",
+    "https://tech-corporatefinance.com/expertise/"
+  ],
+  "unverified": [
+    "team_size_estimate, only 4 named management team members were visible on the about page, broader firm headcount not stated.",
+    "tombstone_count, the site states more than 4,000 transactions but does not provide a clean firm-only count for the visible tombstones.",
+    "has_client_portal, no client login or portal mentioned on the pages.",
+    "mentions_data_room, no data room or VDR mentioned on the pages.",
+    "office cities, London and San Francisco appear in headings and network context, but the firm's own office locations are explicitly Munich, Frankfurt, Dusseldorf, and Berlin."
+  ],
+  "isSample": false
+}

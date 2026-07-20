@@ -1,0 +1,190 @@
+{
+  "id": "ftsconsulting-ch",
+  "firm": {
+    "name": "FTS Consulting",
+    "url": "https://ftsconsulting.ch/",
+    "oneLiner": "FTS Consulting provides M&A services for SMEs in Switzerland, with a focus on company sales, business valuation, fit-to-sell optimization, and succession planning.",
+    "teamSizeEstimate": 2,
+    "cities": [
+      "Zürich"
+    ],
+    "services": [
+      "M&A advisory",
+      "company sales",
+      "business valuation",
+      "fit-to-sell optimization",
+      "strategy consulting",
+      "succession planning"
+    ],
+    "sectors": [
+      "IT-Solutions",
+      "Industries",
+      "Services",
+      "KMU"
+    ],
+    "tombstoneCount": 180,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": true,
+      "hasClientPortal": false,
+      "evidence": [
+        "\"Einloggen Datenraum\" and \"Plattform zur Verwaltung von Dokumenten\""
+      ]
+    },
+    "fitNotes": [
+      "Clear fit for an AI-native deal platform because they run SME sell-side M&A and valuation work.",
+      "They explicitly mention a data room and document management platform, which suggests deal workflow tooling matters.",
+      "Their fit-to-sell and valuation content indicates a process-heavy advisory model where automation could help.",
+      "The site does not state a larger team or multiple offices, so the operating scale appears compact."
+    ],
+    "provenance": {
+      "sourceUrl": "https://ftsconsulting.ch/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Laura M. Buck",
+      "role": "Partnerin or senior advisor, named on the site",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Named on the site",
+          "summary": "Listed on the homepage and valuation page as one of the firm's visible leaders.",
+          "sourceUrl": "https://ftsconsulting.ch/"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: would care about faster buyer outreach and cleaner process management.",
+        "Inference: would value better document control and valuation support."
+      ],
+      "provenance": {
+        "sourceUrl": "https://ftsconsulting.ch/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Daniel Furler",
+      "role": "Partner or senior advisor, named on the site",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Named on the site",
+          "summary": "Named on the homepage in connection with the firm's advisory team.",
+          "sourceUrl": "https://ftsconsulting.ch/"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: would care about transaction efficiency and confidentiality.",
+        "Inference: would value tools that reduce manual coordination across deal stages."
+      ],
+      "provenance": {
+        "sourceUrl": "https://ftsconsulting.ch/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Published M&A interview with Markus Huber",
+      "detail": "The site features an interview dated 04.11.2024 about success factors in M&A transactions.",
+      "date": "2024-11-04",
+      "sourceUrl": "https://ftsconsulting.ch/erfolgsfaktoren-bei-ma-transaktionen/"
+    },
+    {
+      "type": "content",
+      "title": "Published 2025 guide to selling a company in Switzerland",
+      "detail": "The site has a 2025 article on company sales and transaction preparation.",
+      "date": "2025",
+      "sourceUrl": "https://ftsconsulting.ch/unternehmen-verkaufen-schweiz/"
+    },
+    {
+      "type": "content",
+      "title": "Published fit-to-sell optimization content",
+      "detail": "The site promotes a fit-to-sell approach for improving sale readiness and transaction value.",
+      "sourceUrl": "https://ftsconsulting.ch/unternehmensoptimierung-in-der-schweiz/"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the fact that FTS Consulting already runs a client portal and data room, which makes them a strong fit for a cleaner, more modern deal workflow. Position Fintalo as a way to replace the email, Excel, and scattered-document sprawl around buyer management, staged document release, and deal tracking, rather than as another generic CRM. Given their small team and advisory breadth, the message should be about saving partner time and tightening confidentiality, not about adding process overhead. Avoid over-indexing on AI buzzwords, and avoid implying they need to change how they advise clients, since their current process already signals some digital maturity.",
+    "objections": [
+      {
+        "objection": "We already have a data room and client portal, so we do not need another platform.",
+        "counter": "That is exactly why this can be a fit. Fintalo is not just storage, it adds buyer management, stage-gated release, outreach, and deal intelligence around the data room so the team spends less time coordinating manually."
+      },
+      {
+        "objection": "We are a small team, so we do not want a heavy implementation.",
+        "counter": "Understood. Fintalo is meant to reduce process load quickly, and a short demo can show whether it would save time without changing your current advisory workflow."
+      },
+      {
+        "objection": "Confidentiality is critical, and new tools can create risk.",
+        "counter": "That concern is valid. The platform is built for controlled document access and secure collaboration, so the discussion can focus on whether it improves control versus email-based coordination."
+      }
+    ],
+    "openingEmail": {
+      "subject": "A quick idea for your deal workflow",
+      "body": "Hi Laura,\n\nI noticed FTS Consulting already offers a client portal and data room. Fintalo helps M&A advisors keep that same controlled environment, while also handling buyer management, staged document release, outreach, and deal tracking in one place.\n\nIf it is useful, I would be glad to show you a short demo and see whether it could save your team time on live mandates.\n\nBest,",
+      "groundedFact": "FTS Consulting already offers a client portal and data room.",
+      "groundedFactSourceUrl": "https://ftsconsulting.ch/"
+    }
+  },
+  "score": {
+    "total": 65,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 10,
+        "max": 35,
+        "rationale": "runs data rooms (warm to the category)"
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 25,
+        "max": 25,
+        "rationale": "180+ tombstones: a busy, active dealmaker."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 10,
+        "max": 20,
+        "rationale": "~2 people: very small, so fewer seats and a faster decision."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "3 live \"why now\" signal(s); 2 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:20:55.042Z",
+  "sources": [
+    "https://ftsconsulting.ch/",
+    "https://ftsconsulting.ch/erfolgsfaktoren-bei-ma-transaktionen/",
+    "https://ftsconsulting.ch/unternehmensoptimierung-in-der-schweiz/",
+    "https://ftsconsulting.ch/unternehmensbewertung/",
+    "https://ftsconsulting.ch/impressum/",
+    "https://ftsconsulting.ch/unternehmen-verkaufen-schweiz/"
+  ],
+  "unverified": [
+    "team_size_estimate, only two named people were clearly visible on the provided pages, no full team page was included",
+    "has_client_portal, the site shows a data room login, but it is not clearly described as a client portal",
+    "people roles, the pages name Laura M. Buck and Daniel Furler but do not state their exact titles",
+    "has_client_portal: flag dropped, no explicit client-portal/login wording in the evidence."
+  ],
+  "isSample": false
+}

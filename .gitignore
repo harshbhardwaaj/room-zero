@@ -1,0 +1,31 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next
+/out
+
+# env, never commit the key
+.env
+.env.local
+.env*.local
+
+# Fetched HTML only. Disposable: tens of MB, re-fetchable on demand, and not
+# something anyone should read in a diff.
+#
+# Generated rooms are deliberately NOT ignored. They live in
+# data/rooms/generated/ because they are content, not cache: they cost real API
+# calls to produce and they are what the demo actually shows. Ignoring them (as
+# this file used to, by excluding all of /.cache) meant a deployed build would
+# have shipped with only the three hand-authored fixtures.
+/.cache
+
+# deploy
+.vercel
+
+# os / editor
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+.idea/
+*.log

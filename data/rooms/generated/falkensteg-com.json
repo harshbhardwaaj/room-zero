@@ -1,0 +1,247 @@
+{
+  "id": "falkensteg-com",
+  "firm": {
+    "name": "FalkenSteg",
+    "url": "https://falkensteg.com/",
+    "oneLiner": "FalkenSteg is an independent advisory firm focused on corporate finance, restructuring, insolvency advisory, operations, and real estate.",
+    "teamSizeEstimate": 90,
+    "cities": [
+      "Berlin",
+      "Düsseldorf",
+      "Frankfurt am Main",
+      "Hamburg",
+      "München",
+      "Villingen-Schwenningen"
+    ],
+    "services": [
+      "Corporate Finance",
+      "M&A",
+      "Unternehmensnachfolge",
+      "Valuation",
+      "Debt Advisory",
+      "Shareholding-as-a-Service",
+      "Growth Capital",
+      "Transformation Intelligence",
+      "Claim Management",
+      "Operations",
+      "Carve-Out",
+      "Transformation",
+      "Logistikberatung",
+      "Restructuring",
+      "Eigenverwaltung",
+      "Sanierungsgutachten",
+      "StaRUG",
+      "Interim Management",
+      "CRO",
+      "CFO",
+      "Vorinsolvenzliche Beratung",
+      "Prüfung Sanierungsoptionen",
+      "Betriebsfortführung",
+      "Unternehmensplanung",
+      "Liquiditätsplanung",
+      "Real Estate",
+      "Immobilienvermarktung",
+      "Sale and Lease Back",
+      "Immobilienbewertung",
+      "Asset Management",
+      "Versteigerungsmanagement",
+      "Finanzwirtschaftliches Sanierungsgutachten"
+    ],
+    "sectors": [
+      "Produktion",
+      "Dienstleistung",
+      "Retail",
+      "Industrie",
+      "Handel & Konsumgüter",
+      "Maschinen- und Anlagenbau",
+      "Erneuerbare Energien",
+      "Gesundheit & Pflege",
+      "Automobil",
+      "Luftfahrt und Verteidigung",
+      "Software & Technologie"
+    ],
+    "tombstoneCount": null,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear fit for deal workflow support in special situations, especially M&A and restructuring.",
+      "They explicitly run structured M&A processes and handle complex transactions across multiple stakeholders.",
+      "No data room or client portal is mentioned on the site, so workflow digitization is not evidenced.",
+      "Strong presence in insolvency and turnaround work suggests process-heavy deals where an AI-native platform could help."
+    ],
+    "provenance": {
+      "sourceUrl": "https://falkensteg.com/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Jonas Eckhardt",
+      "role": "Partner, Management Board",
+      "focus": "M&A",
+      "footprint": [
+        {
+          "kind": "quote",
+          "title": "Perlon transaction quote",
+          "summary": "Quoted on achieving a comprehensive solution for the Perlon Group and laying the basis for sustainable continuation of the business.",
+          "sourceUrl": "https://falkensteg.com/media/perlon-gruppe-wird-teil-der-wuxi-yinda-nylon",
+          "date": "2026-06-08"
+        }
+      ],
+      "likelyPriorities": [
+        "Faster buyer coordination across complex cross-border processes, inferred.",
+        "Better visibility into transaction status and stakeholder communication, inferred."
+      ],
+      "provenance": {
+        "sourceUrl": "https://falkensteg.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Tillmann Peeters",
+      "role": "Partner, Management Board",
+      "focus": "Restructuring",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Himolla support",
+          "summary": "Named as partner and restructuring lead, and also as Sanierungsgeschäftsführer in the Himolla Schutzschirmverfahren.",
+          "sourceUrl": "https://falkensteg.com/media/falkensteg-unterstuetzt-polstermoebelhersteller-himolla-im-schutzschirmverfahren",
+          "date": "2026-06-26"
+        }
+      ],
+      "likelyPriorities": [
+        "Tools that help manage creditor, management, and advisor coordination, inferred.",
+        "Faster scenario planning and restructuring execution, inferred."
+      ],
+      "provenance": {
+        "sourceUrl": "https://falkensteg.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Florian Weingärtner",
+      "role": "Partner",
+      "focus": "M&A",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Perlon transaction role",
+          "summary": "Listed as a Falkensteg partner who led the structured M&A process for the Perlon transaction.",
+          "sourceUrl": "https://falkensteg.com/media/perlon-gruppe-wird-teil-der-wuxi-yinda-nylon",
+          "date": "2026-06-08"
+        }
+      ],
+      "likelyPriorities": [
+        "Process efficiency in buyer outreach and diligence, inferred.",
+        "Cleaner collaboration across internal deal teams, inferred."
+      ],
+      "provenance": {
+        "sourceUrl": "https://falkensteg.com/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "press",
+      "title": "Perlon Group becomes part of Wuxi Yinda Nylon",
+      "detail": "FalkenSteg announced the transaction on 2026-06-08.",
+      "date": "2026-06-08",
+      "sourceUrl": "https://falkensteg.com/media/perlon-gruppe-wird-teil-der-wuxi-yinda-nylon"
+    },
+    {
+      "type": "press",
+      "title": "Falkensteg supports Himolla in Schutzschirmverfahren",
+      "detail": "FalkenSteg announced support for the Himolla Group on 2026-06-26.",
+      "date": "2026-06-26",
+      "sourceUrl": "https://falkensteg.com/media/falkensteg-unterstuetzt-polstermoebelhersteller-himolla-im-schutzschirmverfahren"
+    }
+  ],
+  "play": {
+    "angle": "FalkenSteg looks like a process-heavy advisory firm that already runs structured M&A and restructuring mandates, so lead with reducing coordination friction rather than pitching generic AI. The strongest hook is that their work appears email-based and partner-led, which makes a short demo of faster buyer management, stage-gated document release, and cleaner status visibility relevant. Avoid sounding like a data-room replacement pitch first, or anything that suggests they need to change how they advise clients, since they likely care most about control and professionalism.",
+    "objections": [
+      {
+        "objection": "We already manage deals well with email and our current tools.",
+        "counter": "That is exactly the workflow Fintalo is meant to sit on top of, not force a process change. The value is less manual follow-up, clearer status, and tighter control over who sees what, without disrupting how you run the mandate."
+      },
+      {
+        "objection": "Our mandates are sensitive, especially in restructuring and insolvency.",
+        "counter": "Understood, and that is why the demo should focus on permissions, auditability, and controlled release rather than broad collaboration. If it does not feel safer than email, it is not a fit."
+      },
+      {
+        "objection": "We do both M&A and restructuring, so one tool may not fit both.",
+        "counter": "Fintalo is built for exactly that mix, with buyer/investor workflows for transactions and stage-gated collaboration for sensitive processes. The point is to give partners one operating layer across both types of mandates."
+      }
+    ],
+    "openingEmail": {
+      "subject": "Quick idea for FalkenSteg",
+      "body": "Hi FalkenSteg team,\n\nI saw that FalkenSteg was immediately mandated as exclusive M&A advisor after the filing. That kind of time-sensitive process is exactly where teams tend to lose time across email threads, document versions, and buyer follow-up.\n\nFintalo is an AI-native M&A operating system that helps advisors manage NDA workflows, buyer coordination, stage-gated document release, and deal status in one place. If useful, I would be glad to show you a short demo.\n\nBest,",
+      "groundedFact": "FalkenSteg was immediately mandated as exclusive M&A advisor after the filing.",
+      "groundedFactSourceUrl": "https://falkensteg.com/media/perlon-gruppe-wird-teil-der-wuxi-yinda-nylon"
+    }
+  },
+  "score": {
+    "total": 31,
+    "band": "long_shot",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 3,
+        "max": 25,
+        "rationale": "Deal count not stated on the public site."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 8,
+        "max": 20,
+        "rationale": "~90 people: a larger firm, so a longer, more committee-driven sale."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "2 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:16:32.052Z",
+  "sources": [
+    "https://falkensteg.com/",
+    "https://falkensteg.com/ueber-uns",
+    "https://falkensteg.com/referenzen",
+    "https://falkensteg.com/media/perlon-gruppe-wird-teil-der-wuxi-yinda-nylon",
+    "https://falkensteg.com/unternehmenslenker",
+    "https://falkensteg.com/media/falkensteg-unterstuetzt-polstermoebelhersteller-himolla-im-schutzschirmverfahren"
+  ],
+  "unverified": [
+    "tombstone_count, no total transaction count stated and visible references were not counted exhaustively.",
+    "has_client_portal, no client login or portal mentioned.",
+    "process_email_based, no explicit email or phone based deal workflow described on the pages.",
+    "why-now signals beyond press items, no site relaunch, award date, or hiring announcement found.",
+    "process_email_based: the site describes hands-on advisory but never names email, Excel or spreadsheets as the deal-management tool; not counted as an email-based process."
+  ],
+  "isSample": false
+}

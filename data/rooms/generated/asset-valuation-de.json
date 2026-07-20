@@ -1,0 +1,198 @@
+{
+  "id": "asset-valuation-de",
+  "firm": {
+    "name": "Asset Valuation Group",
+    "url": "https://asset-valuation.de/",
+    "oneLiner": "A Munich based M&A and corporate finance advisory boutique focused on mid-market transactions, real estate transactions, and company valuations.",
+    "teamSizeEstimate": 1,
+    "cities": [
+      "München",
+      "Pullach im Isartal"
+    ],
+    "services": [
+      "M&A advisory",
+      "transaction advisory",
+      "company valuation",
+      "real estate transaction advisory",
+      "real estate valuation",
+      "site relocation advisory",
+      "corporate finance",
+      "succession advisory",
+      "MBO",
+      "MBI",
+      "LBO",
+      "carve-out",
+      "deal sourcing",
+      "due diligence",
+      "contract negotiation"
+    ],
+    "sectors": [
+      "German and European mid-market",
+      "automotive",
+      "construction and real estate",
+      "education",
+      "services",
+      "electrical engineering",
+      "financial services",
+      "healthcare",
+      "retail",
+      "hotels and hospitality",
+      "IT / cloud",
+      "consumer goods",
+      "logistics and transport",
+      "aerospace",
+      "machinery",
+      "food and beverages",
+      "care and nursing",
+      "pharma and chemicals",
+      "manufacturing",
+      "shipbuilding",
+      "heavy industry"
+    ],
+    "tombstoneCount": 16,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear fit for an AI native deal platform because they run full process mandates, including planning, negotiation, signing, and closing.",
+      "They work across both M&A and real estate, so a shared workflow layer for documents, tasks, and buyer management could be useful.",
+      "They emphasize discretion and anonymity, which suggests value in controlled access, audit trails, and secure collaboration.",
+      "Their public site does not mention a data room or client portal, so there is room for modernizing the deal execution stack."
+    ],
+    "provenance": {
+      "sourceUrl": "https://asset-valuation.de/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Robert Hang",
+      "role": "Dipl.-Kfm. CFA, founder and managing director",
+      "focus": "M&A, real estate transactions, corporate finance, company strategy",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Founder and managing director",
+          "summary": "The site says Asset Valuation Group was founded by Dipl.-Kfm. Robert Hang, CFA.",
+          "sourceUrl": "https://asset-valuation.de/Company.html"
+        }
+      ],
+      "likelyPriorities": [
+        "Likely cares about preserving a high touch boutique positioning.",
+        "Likely values tools that improve efficiency without reducing discretion.",
+        "Likely interested in better tracking of complex mandates and valuations."
+      ],
+      "provenance": {
+        "sourceUrl": "https://asset-valuation.de/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "site_relaunch",
+      "title": "Brand reorientation to Valmont Partners",
+      "detail": "The homepage says the firm is rebranding after more than fifteen years and will operate as Valmont Partners from 1 January 2026.",
+      "date": "2026-01-01",
+      "sourceUrl": "https://asset-valuation.de/"
+    },
+    {
+      "type": "content",
+      "title": "New M&A handbook available on Amazon",
+      "detail": "The homepage notes, \"Our new M&A Handbook is available on Amazon.\"",
+      "sourceUrl": "https://asset-valuation.de/"
+    },
+    {
+      "type": "other",
+      "title": "Track record updated through December 2022",
+      "detail": "The about page states the team's transaction volume figure is as of December 2022.",
+      "date": "2022-12-01",
+      "sourceUrl": "https://asset-valuation.de/Company.html"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the rebrand, because it is the clearest why now signal and suggests they may be revisiting how the firm presents itself and runs its process. Position Fintalo as a way to keep the boutique, high touch feel while reducing email and spreadsheet sprawl across NDA handling, buyer coordination, and document release. Avoid sounding like a heavy enterprise system or pushing a generic CRM pitch, since the firm’s positioning is discretion first and the likely concern is preserving that client experience.",
+    "objections": [
+      {
+        "objection": "We are a small boutique, so we do not need a full platform.",
+        "counter": "That is exactly where a lighter operating layer can help, especially if it replaces scattered email threads and manual tracking without changing how you run the deal."
+      },
+      {
+        "objection": "Discretion is central for us, and we do not want a tool that adds exposure.",
+        "counter": "Understood, Fintalo is built for controlled access and stage gated sharing, so you can keep information release tight rather than broader."
+      },
+      {
+        "objection": "We already manage deals well with email and Excel.",
+        "counter": "That works until a mandate gets more complex or time sensitive, and then the friction shows up in buyer follow up, version control, and status tracking. A short demo can show whether the workflow is actually simpler."
+      }
+    ],
+    "openingEmail": {
+      "subject": "Quick idea for Valmont Partners",
+      "body": "Hi Robert,\n\nI saw your homepage note that Asset Valuation Group will operate as Valmont Partners from 1 January 2026. If you are revisiting the firm’s process alongside the rebrand, I thought it might be useful to show you Fintalo, an AI native M&A operating system that keeps NDA workflows, buyer management, and document release in one place.\n\nIt is built to preserve a boutique, discreet client experience while cutting down on email and Excel sprawl. Would you be open to a short demo next week?\n\nBest,",
+      "groundedFact": "I saw your homepage note that Asset Valuation Group will operate as Valmont Partners from 1 January 2026.",
+      "groundedFactSourceUrl": "https://asset-valuation.de/"
+    }
+  },
+  "score": {
+    "total": 48,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 20,
+        "max": 25,
+        "rationale": "16 deals shown: steady deal flow."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 8,
+        "max": 20,
+        "rationale": "~1 people: a larger firm, so a longer, more committee-driven sale."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "3 live \"why now\" signal(s); 1 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:19:32.066Z",
+  "sources": [
+    "https://asset-valuation.de/",
+    "https://asset-valuation.de/real-estate.html",
+    "https://asset-valuation.de/mergers-and-acquisitions.html",
+    "https://asset-valuation.de/Company.html",
+    "https://asset-valuation.de/imprint.html"
+  ],
+  "unverified": [
+    "team_size_estimate, only one named leader is visible and no full team roster is provided",
+    "tombstone_count, counted from anonymized examples and stated totals are mixed across pages",
+    "has_client_portal, no client login or portal mentioned",
+    "mentions_data_room, no data room or VDR mentioned",
+    "process_email_based, no deal workflow described as email based",
+    "cities, only Munich and Pullach im Isartal are explicitly listed as office locations"
+  ],
+  "isSample": false
+}

@@ -1,0 +1,260 @@
+{
+  "id": "taurusadvisory-de",
+  "firm": {
+    "name": "Taurus Advisory",
+    "url": "https://taurusadvisory.de/",
+    "oneLiner": "Taurus Advisory is an M&A boutique for the upper mid-market, focused on company sales, acquisitions, and succession planning.",
+    "teamSizeEstimate": 19,
+    "cities": [
+      "Bad Soden",
+      "Wien"
+    ],
+    "services": [
+      "Unternehmensverkauf",
+      "Unternehmenskauf",
+      "Unternehmensnachfolge",
+      "Unternehmensbewertung",
+      "Transaktionsberatung",
+      "M&A-Seminare",
+      "Webinare",
+      "Events"
+    ],
+    "sectors": [
+      "Automobil",
+      "Bauwesen",
+      "Dienstleistungen",
+      "Energie",
+      "Facility Management & TGA",
+      "Gesundheit & Pharma",
+      "Handel",
+      "Industrie",
+      "Lebensmittel",
+      "Technologie & Medien",
+      "Transport & Logistik",
+      "Verpackungen"
+    ],
+    "tombstoneCount": 250,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": true,
+      "hasClientPortal": false,
+      "evidence": [
+        "\"Während der Due Diligence werden wir für Sie ein professionelles Datenraummanagement betreiben.\"",
+        "\"die Befüllung des Datenraums mit sämtlichen Dokumenten und die Koordination sämtlicher Besucher des Datenraums\""
+      ]
+    },
+    "fitNotes": [
+      "Clear fit for an AI-native deal platform because they run structured sell-side and buy-side processes and explicitly manage buyer outreach and deal documents.",
+      "They mention data room management, which suggests a workflow with recurring document collection, Q&A, and diligence coordination.",
+      "Their sector coverage is broad across mid-market industries, so a platform could help standardize repeatable process steps across mandates.",
+      "They emphasize personal, discreet, high-touch advisory, so any AI tooling would need to support, not replace, the advisor-led process."
+    ],
+    "provenance": {
+      "sourceUrl": "https://taurusadvisory.de/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Dr. Klaus Schmitte",
+      "role": "Managing Partner",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Managing Partner at Taurus Advisory",
+          "summary": "Listed as Managing Partner on the team page and in the news section as appearing in the podcast mention.",
+          "sourceUrl": "https://taurusadvisory.de/ueber-uns"
+        },
+        {
+          "kind": "podcast",
+          "title": "Leading with a Laughter",
+          "summary": "The news page says he spoke in the podcast about why trust and a second management layer matter for successful succession.",
+          "sourceUrl": "https://taurusadvisory.de/news",
+          "date": "2026-06-29"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: preserving a high-trust, partner-led advisory model.",
+        "Inference: tools that improve buyer targeting, process control, and diligence coordination without reducing discretion."
+      ],
+      "provenance": {
+        "sourceUrl": "https://taurusadvisory.de/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Volker Ruhl",
+      "role": "Managing Partner",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Managing Partner at Taurus Advisory",
+          "summary": "Listed as Managing Partner on the team page.",
+          "sourceUrl": "https://taurusadvisory.de/ueber-uns"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: faster execution on sell-side mandates.",
+        "Inference: better organization of buyer outreach, documents, and transaction steps."
+      ],
+      "provenance": {
+        "sourceUrl": "https://taurusadvisory.de/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Moritz Freiherr Schenck",
+      "role": "Managing Director",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Managing Director at Taurus Advisory",
+          "summary": "Listed as Managing Director on the team page.",
+          "sourceUrl": "https://taurusadvisory.de/ueber-uns"
+        },
+        {
+          "kind": "role_note",
+          "title": "Joined the management team",
+          "summary": "The news page says he has strengthened the management since May 2025.",
+          "sourceUrl": "https://taurusadvisory.de/news",
+          "date": "2025-05-23"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: scalable process support as the firm grows.",
+        "Inference: visibility into active mandates and team coordination."
+      ],
+      "provenance": {
+        "sourceUrl": "https://taurusadvisory.de/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "new_hire",
+      "title": "Moritz Freiherr Schenck verstärkt seit Mai 2025 die Geschäftsleitung",
+      "detail": "News item announcing he strengthened the management team.",
+      "date": "2025-05-23",
+      "sourceUrl": "https://taurusadvisory.de/news"
+    },
+    {
+      "type": "office_move",
+      "title": "M&A Beratung in Wien: Taurus Advisory eröffnet neuen Standort",
+      "detail": "News item announcing a new Vienna location.",
+      "date": "2025-12-16",
+      "sourceUrl": "https://taurusadvisory.de/news"
+    },
+    {
+      "type": "content",
+      "title": "7/oceans - Internationales Netzwerk geht an den Start",
+      "detail": "News item about the launch of the international network.",
+      "date": "2025-09-18",
+      "sourceUrl": "https://taurusadvisory.de/news"
+    },
+    {
+      "type": "content",
+      "title": "Wie Sie mit der richtigen Bieteransprache den Höchstpreis für Ihr Unternehmen erzielen",
+      "detail": "Published as Taurus Nachfolgeforum on 2026-07-07.",
+      "date": "2026-07-07",
+      "sourceUrl": "https://taurusadvisory.de/news"
+    },
+    {
+      "type": "content",
+      "title": "Elektrogroßhandel [Q2/2026]",
+      "detail": "Sektor-Radar published on 2026-06-30.",
+      "date": "2026-06-30",
+      "sourceUrl": "https://taurusadvisory.de/news"
+    },
+    {
+      "type": "content",
+      "title": "Taurus Advisory: Klaus Schmitte im Podcast 'Leading with a Laughter'",
+      "detail": "Media mention published on 2026-06-29.",
+      "date": "2026-06-29",
+      "sourceUrl": "https://taurusadvisory.de/news"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the fact that Taurus Advisory already runs a professional data room process during diligence, because that is the clearest sign they feel the pain Fintalo solves. Position Fintalo as a way to replace email, Excel, and scattered document coordination with a single controlled workflow for NDA handling, buyer management, staged document release, and deal tracking. Avoid sounding like a generic CRM or a heavy enterprise system, and avoid overemphasizing automation at the expense of the partner-led, high-trust advisory style they clearly value.",
+    "objections": [
+      {
+        "objection": "We already manage diligence and buyer communication ourselves.",
+        "counter": "That is exactly the workflow Fintalo is meant to support, not replace. It keeps the partner in control while reducing the manual email, document chasing, and version drift that slow deals down."
+      },
+      {
+        "objection": "Our process is bespoke, a platform may be too rigid.",
+        "counter": "Fintalo is designed to mirror how advisors actually run mandates, with stage-gated release and flexible buyer management rather than a fixed one-size-fits-all process."
+      },
+      {
+        "objection": "We do not want to add another tool for the team to learn.",
+        "counter": "Fair concern. The goal would be to show whether Fintalo can consolidate work you already do across email, Excel, and the data room into one place, so the team uses fewer tools overall."
+      }
+    ],
+    "openingEmail": {
+      "subject": "Quick idea for your diligence process",
+      "body": "Hi Taurus Advisory team,\n\nI noticed you mention that during due diligence you run a professional data room management process. Fintalo is an AI-native M&A operating system that helps advisors keep NDA workflows, buyer coordination, staged document release, and deal tracking in one place instead of across email and Excel.\n\nGiven the volume of mandates you handle, I thought it might be worth a short look to see whether it could reduce the manual coordination around each process without changing your advisory style. Would you be open to a brief demo?\n\nBest,",
+      "groundedFact": "I noticed you mention that during due diligence you run a professional data room management process."
+    }
+  },
+  "score": {
+    "total": 75,
+    "band": "strong",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 10,
+        "max": 35,
+        "rationale": "runs data rooms (warm to the category)"
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 25,
+        "max": 25,
+        "rationale": "250+ tombstones: a busy, active dealmaker."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 20,
+        "max": 20,
+        "rationale": "~19 people: the boutique sweet spot for Fintalo."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "6 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:22:53.339Z",
+  "sources": [
+    "https://taurusadvisory.de/",
+    "https://taurusadvisory.de/ueber-uns",
+    "https://taurusadvisory.de/referenzen",
+    "https://taurusadvisory.de/branchenkompetenz",
+    "https://taurusadvisory.de/unternehmensverkauf",
+    "https://taurusadvisory.de/news"
+  ],
+  "unverified": [
+    "team_size_estimate, exact headcount not explicitly stated, counted 19 named team members on the about page.",
+    "cities, only Bad Soden and Wien are explicitly stated, office street addresses not provided.",
+    "tombstone_count, 250 is stated on the home page, but the site also shows many individual deal tombstones without a complete count.",
+    "has_client_portal, no client login or portal mentioned.",
+    "people.focus, no explicit functional focus stated for the named leaders.",
+    "signals, some news items are shown without dates in the page list, so only dated items were used.",
+    "process_email_based: the site describes hands-on advisory but never names email, Excel or spreadsheets as the deal-management tool; not counted as an email-based process."
+  ],
+  "isSample": false
+}

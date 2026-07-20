@@ -1,0 +1,235 @@
+{
+  "id": "benten-capital-com",
+  "firm": {
+    "name": "benten capital",
+    "url": "https://benten-capital.com/",
+    "oneLiner": "An independent M&A advisory boutique for upper mid-market companies and groups, advising on company sales, acquisitions, financing, distressed situations, valuation and strategy.",
+    "teamSizeEstimate": 12,
+    "cities": [
+      "Stuttgart",
+      "Wiesbaden",
+      "Hamburg",
+      "Berlin",
+      "Saarbrücken",
+      "München"
+    ],
+    "services": [
+      "Mergers & Acquisitions",
+      "Corporate Finance",
+      "Distressed Services",
+      "Bewertung & Strategie"
+    ],
+    "sectors": [
+      "Mittelstand",
+      "Industrie",
+      "Automotive",
+      "TMT",
+      "Pharma",
+      "Technology"
+    ],
+    "tombstoneCount": 200,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Strong fit for an AI-native deal platform because they run a high-touch, partner-led transaction model across multiple offices.",
+      "They explicitly handle M&A, Corporate Finance and distressed situations, which suggests repeatable workflow needs around buyer lists, diligence and process tracking.",
+      "Their public site emphasizes senior teams and personal execution, so tooling that improves speed and coordination could be relevant.",
+      "No public client portal or data room is mentioned on the site, so the current workflow appears relationship-led rather than platform-led."
+    ],
+    "provenance": {
+      "sourceUrl": "https://benten-capital.com/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Harald J. Tomaselli",
+      "role": "Managing Partner",
+      "focus": "M&A and Corporate Finance, especially international transactions",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Managing Partner at benten capital",
+          "summary": "Gründungspartner and Managing Partner since 2012, responsible for many international M&A and Corporate Finance projects.",
+          "sourceUrl": "https://www.benten-capital.com/partner/"
+        },
+        {
+          "kind": "article",
+          "title": "Unternehmenstransaktionen im Mittelstand in Baden-Württemberg",
+          "summary": "Listed as author of this publication.",
+          "sourceUrl": "https://www.benten-capital.com/partner/"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: efficient management of complex cross-border processes",
+        "Inference: maintaining a senior, partner-led service model",
+        "Inference: tools that support buyer outreach and transaction coordination"
+      ],
+      "provenance": {
+        "sourceUrl": "https://benten-capital.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Dr. Florian Eisele",
+      "role": "Managing Partner",
+      "focus": "M&A, Corporate Finance, restructuring and turnaround",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Managing Partner at benten capital",
+          "summary": "Partner since 2014, responsible for many M&A and Corporate Finance projects.",
+          "sourceUrl": "https://www.benten-capital.com/partner/"
+        },
+        {
+          "kind": "article",
+          "title": "Publications on M&A and Corona",
+          "summary": "Listed publications include articles on M&A practice during the Corona crisis.",
+          "sourceUrl": "https://www.benten-capital.com/partner/",
+          "date": "2020"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: structured support for financing and valuation work",
+        "Inference: process efficiency in advisory-heavy transactions",
+        "Inference: content and credibility around market expertise"
+      ],
+      "provenance": {
+        "sourceUrl": "https://benten-capital.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Dr. Frank Schaffrath",
+      "role": "Partner",
+      "focus": "M&A, strategy, cost management and restructuring",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Partner at benten capital",
+          "summary": "Partner with background in strategy consulting, planning and controlling, and M&A advisory.",
+          "sourceUrl": "https://www.benten-capital.com/partner/"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: tools that help manage complex, multi-stakeholder transactions",
+        "Inference: support for distressed and restructuring mandates",
+        "Inference: clear visibility across deal stages"
+      ],
+      "provenance": {
+        "sourceUrl": "https://benten-capital.com/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "press",
+      "title": "brand eins Beste Berater 2026",
+      "detail": "benten capital was again awarded as one of the best advisors.",
+      "date": "2026-04-16",
+      "sourceUrl": "https://benten-capital.com/"
+    },
+    {
+      "type": "new_mandate",
+      "title": "S+P Ingenieure AG sale to Encoviva-Gruppe completed",
+      "detail": "The site announces a strategically motivated sale completed on 24.06.2026.",
+      "date": "2026-06-24",
+      "sourceUrl": "https://benten-capital.com/"
+    },
+    {
+      "type": "content",
+      "title": "Published transaction and philosophy pages",
+      "detail": "The site highlights a transaction process, international network, and partner philosophy.",
+      "sourceUrl": "https://www.benten-capital.com/philosophie/"
+    }
+  ],
+  "play": {
+    "angle": "Lead with their partner-led, high-touch process and the fact that they have handled more than 200 transactions. That gives you a clean way to position Fintalo as a way to keep the same senior, relationship-driven service while removing the email and spreadsheet sprawl that slows buyer outreach, document control, and stage-gated collaboration. Avoid sounding like a generic CRM or a heavy enterprise rollout, and do not push on client portals or data room replacement as a first message, since their site signals a relationship-first advisory model rather than a tech-forward one.",
+    "objections": [
+      {
+        "objection": "We already run deals well with email and our existing process.",
+        "counter": "That is exactly the point, Fintalo is not trying to change the advisory model, just reduce the manual work around outreach, NDA handling, document release, and status tracking so the team can stay senior-led."
+      },
+      {
+        "objection": "Our clients expect a very personal, partner-led experience.",
+        "counter": "Fintalo is built to support that, not replace it, by giving partners one place to manage buyers, materials, and deal progress without losing the personal touch."
+      },
+      {
+        "objection": "We do not want to add another system for the team to learn.",
+        "counter": "Fair concern, the goal would be a short demo to see whether it can simplify one live process enough to justify adoption, not a broad platform rollout."
+      }
+    ],
+    "openingEmail": {
+      "subject": "Quick idea for your deal workflow",
+      "body": "Hi benten capital team,\n\nI saw that you have handled more than 200 transactions. Given that volume, I thought it might be useful to show you Fintalo, an AI-native M&A operating system that helps firms manage buyer outreach, NDA workflows, document release, and deal collaboration in one place.\n\nIt is designed to reduce the email and Excel sprawl without changing the partner-led way you work.\n\nWould you be open to a short demo next week?\n\nBest,",
+      "groundedFact": "I saw that you have handled more than 200 transactions.",
+      "groundedFactSourceUrl": "https://benten-capital.com/"
+    }
+  },
+  "score": {
+    "total": 65,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 25,
+        "max": 25,
+        "rationale": "200+ tombstones: a busy, active dealmaker."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 20,
+        "max": 20,
+        "rationale": "~12 people: the boutique sweet spot for Fintalo."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "3 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:16:47.294Z",
+  "sources": [
+    "https://benten-capital.com/",
+    "https://www.benten-capital.com/partner/",
+    "https://www.benten-capital.com/referenz/",
+    "https://www.benten-capital.com/kompetenzen/",
+    "https://www.benten-capital.com/philosophie/",
+    "https://www.benten-capital.com/impressum/"
+  ],
+  "unverified": [
+    "team_size_estimate, the site states twelve operating partners but does not give total firm headcount beyond partners and teams.",
+    "tombstone_count, the site states more than 200 transactions but does not provide a full visible tombstone list count.",
+    "sectors, only a few example sectors are implied by biographies, the site does not publish a formal sector list.",
+    "has_client_portal, no client login or portal is mentioned.",
+    "mentions_data_room, no data room or VDR is mentioned.",
+    "process_email_based, the site describes partner-led transaction work but does not explicitly say deals are run by email, phone, spreadsheets or similar.",
+    "people footprint for Dr. Martin Arnegger is truncated on the provided page text, so he was not included."
+  ],
+  "isSample": false
+}

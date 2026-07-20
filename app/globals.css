@@ -1,0 +1,429 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222 30% 98%;
+  --foreground: 230 44% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 230 44% 12%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 230 44% 12%;
+  --primary: 243 75% 59%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 232 40% 96%;
+  --secondary-foreground: 230 44% 12%;
+  --muted: 232 40% 96%;
+  --muted-foreground: 223 15% 42%;
+  --accent: 243 75% 59%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 226 30% 90%;
+  --input: 226 30% 90%;
+  --ring: 243 75% 59%;
+  --radius: 0.625rem;
+  /* The default palette, deliberately nobody's brand: this is what the public
+   * "Room Zero" build wears. Fintalo's own palette is opt-in below, keyed on
+   * data-brand (see lib/brand.ts). If the brand env var is ever missing or
+   * misspelt, the page falls back to *this* — a public build that never wore
+   * someone else's colours, which is the only safe way for that mistake to
+   * land. An indigo distinct from Fintalo's navy so the two builds read apart. */
+  --ft-bg: #f7f8fa;
+  --ft-bg-soft: #eef1f6;
+  --ft-surface: #ffffff;
+  --ft-surface-2: #f5f6f9;
+  --ft-surface-3: #edeff4;
+  --ft-border: #e2e6ee;
+  --ft-border-strong: #cad1de;
+  --ft-text: #12172a;
+  --ft-muted: #4c566b;
+  --ft-subtle: #9099ac;
+  --ft-accent: #4f46e5;
+  --ft-accent-hover: #4338ca;
+  --ft-accent-soft: #e7e7fb;
+  --ft-accent-softer: #f3f3fd;
+  --ft-accent-text: #ffffff;
+  --ft-success: #16a34a;
+  --ft-accent-rgb: 79, 70, 229;
+  --ft-success-rgb: 22, 163, 74;
+
+  /* Semantic caution / confirmation surfaces.
+   *
+   * These exist because the flagging UI ("Flagged, not invented", the sample
+   * banner, the do-not-send email warning) was written with literal Tailwind
+   * amber-50/amber-300 classes, which do not know what theme they are in. On
+   * dark they rendered as a bright yellow slab. Since flagging uncertainty is
+   * the product's whole integrity claim, that panel in particular has to look
+   * deliberate in both themes.
+   *
+   * Defined only here and in the dark block: neither is brand-specific, and
+   * :root[data-theme="dark"] outranks :root, so the Fintalo scopes inherit the
+   * right pair without repeating them. */
+  --ft-warn-bg: #fffbeb;
+  --ft-warn-border: #fcd34d;
+  --ft-warn-text: #92400e;
+  --ft-ok-bg: #ecfdf5;
+  --ft-ok-border: #6ee7b7;
+  --ft-ok-text: #047857;
+}
+
+:root[data-theme="dark"] {
+  --background: 230 40% 5%;
+  --foreground: 220 40% 97%;
+  --card: 230 34% 10%;
+  --card-foreground: 220 40% 97%;
+  --popover: 230 34% 10%;
+  --popover-foreground: 220 40% 97%;
+  --primary: 245 90% 76%;
+  --primary-foreground: 230 40% 6%;
+  --secondary: 230 28% 14%;
+  --secondary-foreground: 220 40% 97%;
+  --muted: 230 28% 14%;
+  --muted-foreground: 222 18% 70%;
+  --accent: 245 90% 76%;
+  --accent-foreground: 230 40% 6%;
+  --border: 230 26% 20%;
+  --input: 230 26% 20%;
+  --ring: 245 90% 76%;
+  /* Neutral dark. The indigo lifts so it stays legible on dark, which means
+   * text *on* the accent goes dark rather than white. */
+  --ft-bg: #0a0c15;
+  --ft-bg-soft: #10131f;
+  --ft-surface: #151827;
+  --ft-surface-2: #121524;
+  --ft-surface-3: #1e2236;
+  --ft-border: #272c40;
+  --ft-border-strong: #3a4058;
+  --ft-text: #f1f3f9;
+  --ft-muted: #a6aec2;
+  --ft-subtle: #838ca3;
+  --ft-accent: #8b87f5;
+  --ft-accent-hover: #a6a2ff;
+  --ft-accent-soft: #1e1f3d;
+  --ft-accent-softer: #16172e;
+  --ft-accent-text: #0a0c15;
+  --ft-success: #35d07f;
+  --ft-accent-rgb: 139, 135, 245;
+  --ft-success-rgb: 53, 208, 127;
+
+  /* Dark counterparts: deep tinted ground, mid border, bright legible text. */
+  --ft-warn-bg: #2a1e05;
+  --ft-warn-border: #7c5e10;
+  --ft-warn-text: #fbcf5f;
+  --ft-ok-bg: #052e20;
+  --ft-ok-border: #12694a;
+  --ft-ok-text: #6ee7b7;
+}
+
+/* ---------------------------------------------------------------------------
+ * Fintalo (data-brand="fintalo", set from NEXT_PUBLIC_BRAND).
+ *
+ * Their own palette, sampled live from fintalo.com: the #0C1242 ink navy that
+ * carries their type and their primary buttons, the #5477A9 blue-grey, and the
+ * #DEE5F7 lavender that reads on the dark hero. The accent is an indigo drawn
+ * from the navy→blue-grey axis of their own palette, lifted just enough to work
+ * as an interactive colour (links, active states, focus rings) while the
+ * headline ink stays true navy.
+ *
+ * Scoped, not default, so this can only ever render on the build explicitly
+ * addressed to them. Also overrides the shadcn primary/ring so the ui
+ * primitives pick up the brand without per-component classes.
+ * ------------------------------------------------------------------------ */
+:root[data-brand="fintalo"] {
+  --primary: 231 51% 24%;
+  --primary-foreground: 0 0% 100%;
+  --accent: 231 51% 24%;
+  --ring: 231 51% 36%;
+  --ft-bg: #f7f8fb;
+  --ft-bg-soft: #eef0f7;
+  --ft-surface: #ffffff;
+  --ft-surface-2: #f4f5fa;
+  --ft-surface-3: #eaedf6;
+  --ft-border: #e3e6f0;
+  --ft-border-strong: #cbd1e4;
+  --ft-text: #0c1242;
+  --ft-muted: #55607e;
+  --ft-subtle: #9aa3be;
+  --ft-accent: #2e3a8c;
+  --ft-accent-hover: #212b6e;
+  --ft-accent-soft: #e7e9f6;
+  --ft-accent-softer: #f2f3fa;
+  --ft-accent-text: #ffffff;
+  --ft-success: #16a34a;
+  --ft-accent-rgb: 46, 58, 140;
+  --ft-success-rgb: 22, 163, 74;
+}
+
+/* Dark mode built up from their #0C1242 ink rather than a generic slate, so the
+ * two themes read as the same brand. The indigo lifts to #8CA0FF to stay
+ * legible on dark. Two attributes on purpose: this must outrank both
+ * :root[data-theme="dark"] and :root[data-brand="fintalo"], equally specific to
+ * each other. */
+:root[data-brand="fintalo"][data-theme="dark"] {
+  --primary: 228 100% 78%;
+  --primary-foreground: 230 60% 6%;
+  --accent: 228 100% 78%;
+  --ring: 228 100% 78%;
+  --ft-bg: #070a1a;
+  --ft-bg-soft: #0c1024;
+  --ft-surface: #111631;
+  --ft-surface-2: #0e1329;
+  --ft-surface-3: #1a2144;
+  --ft-border: #262e52;
+  --ft-border-strong: #3a446e;
+  --ft-text: #eef1fb;
+  --ft-muted: #a6aecb;
+  --ft-subtle: #7e88ac;
+  --ft-accent: #8ca0ff;
+  --ft-accent-hover: #a9b8ff;
+  --ft-accent-soft: #1b2350;
+  --ft-accent-softer: #141b3c;
+  --ft-accent-text: #070a1a;
+  --ft-success: #35d07f;
+  --ft-accent-rgb: 140, 160, 255;
+  --ft-success-rgb: 53, 208, 127;
+}
+
+* {
+  @apply border-border;
+}
+
+/* ---------------------------------------------------------------------------
+ * Measures.
+ *
+ * Reach for these instead of hardcoding max-w-xl / max-w-2xl / max-w-4xl on
+ * every block. A fixed rem cap is a guess about one screen: on a 14" laptop it
+ * looks fine, and on a 27" monitor it is a narrow ribbon of text stranded in
+ * the middle of the page with dead space either side.
+ *
+ * These scale with the viewport but stop at a readable line length, because the
+ * cap that actually matters is characters per line, not pixels. Prose past
+ * ~75ch gets hard to track back to the start of the next line, so growing
+ * forever is not the answer either.
+ *
+ * Pick by content, not by feel:
+ *   .measure       body copy, paragraphs, anything read left to right
+ *   .measure-wide  headlines, subheads, short lines that can run longer
+ *   .measure-full  cards, tables, grids: things laid out, not read
+ * ------------------------------------------------------------------------ */
+.measure {
+  width: 100%;
+  max-width: min(100%, 68ch);
+}
+
+.measure-wide {
+  width: 100%;
+  max-width: min(100%, 88ch);
+}
+
+.measure-full {
+  width: 100%;
+  /* Wide enough to use a big monitor, capped so a 32" screen does not stretch a
+   * three-column grid into something you have to turn your head to read. */
+  max-width: min(100%, 96rem);
+}
+
+/*
+ * A reading page: one centred column, with margins that are the point rather
+ * than what is left over.
+ *
+ * This exists because pairing a full-width shell with `.measure` prose is the
+ * worst of both. The shell fills the screen, the text caps at 68ch, and because
+ * the text is left-aligned the leftover space all collects on the right: a
+ * narrow ribbon hugging one edge with a void beside it. That reads as a broken
+ * layout, not a deliberate one.
+ *
+ * So the *column* is the thing that gets capped, and it centres. The margins
+ * then land symmetrically on both sides at every width, which is what makes it
+ * look chosen. The cap is in `ch`, so it tracks the font rather than guessing at
+ * a pixel width, and the column still grows with the viewport until it reaches a
+ * line length worth stopping at.
+ *
+ * Use this for pages that are read (the walkthrough, the proof timeline). Use
+ * `.measure-full` for pages that are laid out (the room index and detail), where
+ * extra width buys real estate for cards rather than longer lines.
+ */
+.measure-read {
+  width: 100%;
+  /* Grows with the viewport rather than sitting at one fixed cap.
+   *
+   * The middle term is what makes it responsive: the column takes 68% of the
+   * screen, so a bigger monitor genuinely gets a bigger column instead of the
+   * same ribbon with more empty space beside it. The bounds are in `ch` because
+   * they are readability limits, not pixel guesses.
+   *
+   * These were 60vw / 96ch, which was too timid. Auto margins and the page
+   * gutter are both spacing, and stacking them put 217px of nothing on each
+   * side of a 717px column inside a 1152px area. The gutter below is now small
+   * enough to be edge protection rather than a second margin, and the column
+   * absorbs the difference.
+   *
+   * Roughly: 696px at 1024, 979px at 1440, 1056px (the cap) from about 1550 up. */
+  max-width: min(100%, clamp(52ch, 68vw, 120ch));
+  margin-inline: auto;
+}
+
+/*
+ * Edge protection, not a second margin.
+ *
+ * This was clamp(1.25rem, 4.5vw, 4rem), which on a centred column added 64px of
+ * padding on top of whatever the auto margins already gave, so the two stacked
+ * into far more empty space than either intended. On a centred page the margins
+ * are the breathing room; this only has to stop text touching the edge when the
+ * column has grown to the full width of a narrow screen.
+ */
+.page-gutter {
+  padding-inline: clamp(1rem, 2.5vw, 2rem);
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply min-h-screen bg-background font-sans text-foreground antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@media (min-width: 768px) {
+  .app-shell-with-nav {
+    --nav-space: 5rem;
+  }
+
+  .app-shell-with-nav[data-nav-open="true"] {
+    --nav-space: 18rem;
+  }
+
+  :root[data-nav-open="true"] .app-shell-with-nav {
+    --nav-space: 18rem;
+  }
+
+  :root[data-nav-open="true"] .nav-rail {
+    width: 18rem;
+  }
+
+  :root[data-nav-open="false"] .nav-rail {
+    width: 5rem;
+  }
+
+  :root[data-nav-open="true"] .nav-rail-label {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-content {
+    padding-left: var(--nav-space);
+    transition: padding-left 220ms ease-out;
+  }
+}
+
+::selection {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 190ms;
+  animation-timing-function: ease-out;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  animation-name: route-fade-out;
+}
+
+::view-transition-new(root) {
+  animation-name: route-fade-in;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes hero-halo {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.88;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes route-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes route-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes hero-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(-1deg);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0) rotate(1deg);
+  }
+}
+
+@keyframes reveal-item {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes success-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-motion,
+  .hero-motion * {
+    animation: none !important;
+  }
+
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none !important;
+  }
+}

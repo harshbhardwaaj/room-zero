@@ -1,0 +1,201 @@
+{
+  "id": "nomas-cf-com",
+  "firm": {
+    "name": "NOMAS Corporate Finance",
+    "url": "https://nomas-cf.com/",
+    "oneLiner": "An M&A boutique for the German mid-market, providing corporate finance advice on company sales, acquisitions, special situations, and financing.",
+    "teamSizeEstimate": 5,
+    "cities": [
+      "München",
+      "Göttingen"
+    ],
+    "services": [
+      "Unternehmensverkauf",
+      "Unternehmenskauf",
+      "Corporate Finance",
+      "Individuelle Lösungen",
+      "Indikative Unternehmensbewertung",
+      "Finanzierungsberatung",
+      "Sondersituationen"
+    ],
+    "sectors": [
+      "Mobilität",
+      "IT & High-Tech",
+      "Nachhaltigkeit",
+      "Dienstleistungen",
+      "Verarbeitende Industrie",
+      "Healthcare",
+      "Konsumgüter & Einzelhandel"
+    ],
+    "tombstoneCount": 14,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear M&A advisory focus with both sell-side and buy-side mandates shown on the site.",
+      "Publishes a visible transaction track record across multiple sectors, which suggests repeatable deal execution.",
+      "No data room, client portal, or digital deal workflow is stated on the pages, so the current process appears opaque from a product perspective.",
+      "The firm emphasizes confidentiality, personal advice, and individual solutions, which may make workflow modernization a relevant conversation."
+    ],
+    "provenance": {
+      "sourceUrl": "https://nomas-cf.com/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Franco Nocera",
+      "role": "Managing Partner",
+      "footprint": [
+        {
+          "kind": "quote",
+          "title": "Philosophy page quote",
+          "summary": "Says trust and responsibility are central: \"Ihr Vertrauen ist unsere Verantwortung\".",
+          "sourceUrl": "https://www.nomas-cf.com/philosophie"
+        },
+        {
+          "kind": "quote",
+          "title": "Home page quote",
+          "summary": "Quoted saying clients choose them because the team is competent, trustworthy, and committed.",
+          "sourceUrl": "https://www.nomas-cf.com/"
+        }
+      ],
+      "likelyPriorities": [
+        "Likely cares about trust, discretion, and preserving a high-touch client experience.",
+        "Likely values tools that support confidential execution without adding process friction."
+      ],
+      "provenance": {
+        "sourceUrl": "https://nomas-cf.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Andreas Schwegler",
+      "role": "Managing Partner",
+      "footprint": [],
+      "likelyPriorities": [
+        "Likely cares about efficient deal execution and maintaining quality across mandates.",
+        "Likely interested in tools that help manage multiple transactions and stakeholders consistently."
+      ],
+      "provenance": {
+        "sourceUrl": "https://nomas-cf.com/",
+        "verified": true,
+        "note": "Name and role from the site; no further public footprint found."
+      }
+    },
+    {
+      "name": "Torsten Berghaus",
+      "role": "Associate Partner",
+      "footprint": [],
+      "likelyPriorities": [
+        "Likely cares about workflow efficiency and supporting partner-led deal execution.",
+        "Likely interested in better coordination across buyers, sellers, and internal teams."
+      ],
+      "provenance": {
+        "sourceUrl": "https://nomas-cf.com/",
+        "verified": true,
+        "note": "Name and role from the site; no further public footprint found."
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Published M&A basics content",
+      "detail": "The site highlights \"M&A Grundlagen\" and a \"Musterverkaufsprozess\" described as \"Schritt für Schritt\".",
+      "sourceUrl": "https://www.nomas-cf.com/"
+    },
+    {
+      "type": "content",
+      "title": "Transaction references page",
+      "detail": "The site publishes a references page with multiple completed transactions and advisory roles.",
+      "sourceUrl": "https://www.nomas-cf.com/projects"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the fact that NOMAS publishes M&A basics and a step by step sample sales process, because that signals they care about educating clients and running a structured process. Position Fintalo as a way to keep that high touch experience while removing the email and Excel sprawl around NDA handling, buyer coordination, and document release. Avoid sounding like a generic CRM pitch, and avoid overemphasizing heavy implementation, since a small boutique will likely want something simple, discreet, and fast to adopt.",
+    "objections": [
+      {
+        "objection": "We already run deals well with email and our current files.",
+        "counter": "That is common for a boutique, and Fintalo is meant to sit on top of that workflow, not force a process overhaul. The value is mainly in reducing manual coordination and making the process easier to control as mandates stack up."
+      },
+      {
+        "objection": "Our client work is confidential, so we are cautious about new software.",
+        "counter": "That is exactly the use case to discuss. Fintalo is built for controlled access and stage gated sharing, so the conversation can stay focused on whether it improves discretion rather than adds risk."
+      },
+      {
+        "objection": "We are too small for a platform like this.",
+        "counter": "Small teams often feel the pain first when each partner is managing multiple stakeholders by hand. A short demo can show whether it saves enough time on one live process to be worth it."
+      }
+    ],
+    "openingEmail": {
+      "subject": "Quick idea for NOMAS",
+      "body": "Hi Franco,\n\nI noticed NOMAS publishes M&A basics and a step by step sample sales process on your site. That kind of client education usually goes hand in hand with a very hands on execution style, and I thought Fintalo might be relevant.\n\nFintalo is an AI native M&A operating system that helps boutiques manage NDAs, buyer coordination, stage gated document release, and deal communication in one place, without the usual email and Excel sprawl.\n\nWould you be open to a short demo to see if it could fit the way NOMAS runs mandates?\n\nBest,",
+      "groundedFact": "I noticed NOMAS publishes M&A basics and a step by step sample sales process on your site.",
+      "groundedFactSourceUrl": "https://www.nomas-cf.com/"
+    }
+  },
+  "score": {
+    "total": 60,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 20,
+        "max": 25,
+        "rationale": "14 deals shown: steady deal flow."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 20,
+        "max": 20,
+        "rationale": "~5 people: the boutique sweet spot for Fintalo."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "2 live \"why now\" signal(s); 1 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:18:03.090Z",
+  "sources": [
+    "https://nomas-cf.com/",
+    "https://www.nomas-cf.com/team",
+    "https://www.nomas-cf.com/projects",
+    "https://www.nomas-cf.com/",
+    "https://www.nomas-cf.com/philosophie",
+    "https://www.nomas-cf.com/impressum"
+  ],
+  "unverified": [
+    "team_size_estimate, only 3 named team members plus an unspecified supporting team are shown.",
+    "tombstone_count, counted 14 distinct references shown because no total completed transaction number was stated.",
+    "mentions_data_room, no Datenraum, VDR, or secure document room mentioned.",
+    "has_client_portal, no client login or portal stated.",
+    "people.focus, no explicit functional specialties were stated for the named partners.",
+    "signals dates, the site content shown is undated."
+  ],
+  "isSample": false
+}

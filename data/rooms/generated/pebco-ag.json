@@ -1,0 +1,224 @@
+{
+  "id": "pebco-ag",
+  "firm": {
+    "name": "PEBCO",
+    "url": "https://pebco.ag/",
+    "oneLiner": "PEBCO is a consulting and corporate advisory firm in Karlsruhe and southern Germany, focused on strategy, financial advisory, M&A, transformation, and performance improvement.",
+    "teamSizeEstimate": 4,
+    "cities": [
+      "Ettlingen",
+      "Karlsruhe"
+    ],
+    "services": [
+      "Strategy & Business Model",
+      "Performance Management",
+      "Financial Advisory",
+      "M&A, Mergers and Acquisitions",
+      "Transformation & Organisation",
+      "Marketing & Vertrieb",
+      "Strategische IT",
+      "ESG, Reporting"
+    ],
+    "sectors": [
+      "Mittelstand",
+      "Private Equity",
+      "Banken",
+      "Unternehmen",
+      "Investoren"
+    ],
+    "tombstoneCount": null,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear M&A and financial advisory positioning, including private equity and acquisitions.",
+      "Strong fit for workflow support around process, reporting, liquidity, and restructuring.",
+      "No evidence of a data room, client portal, or transaction platform on the site.",
+      "Public content suggests a hands-on advisory style, which may benefit from deal workflow automation."
+    ],
+    "provenance": {
+      "sourceUrl": "https://pebco.ag/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Ralf Jourdan",
+      "role": "Senior Partner",
+      "focus": "M&A and investor topics",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "PEBCO AG news and conference participation",
+          "summary": "Named as a discussion participant on private equity topics and identified as part of the leadership team.",
+          "sourceUrl": "https://www.pebco.ag/news/adjust-ag-war-mitveranstalter-der-15-deutschen-investorenkonferenz/",
+          "date": "2018-10-16"
+        }
+      ],
+      "likelyPriorities": [
+        "Likely cares about investor-facing deal execution and value creation.",
+        "Likely interested in faster, more structured transaction workflows."
+      ],
+      "provenance": {
+        "sourceUrl": "https://pebco.ag/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Andreas Crucius",
+      "role": "Senior Partner",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Leadership team mention",
+          "summary": "Named on the site as part of the senior team alongside other partners.",
+          "sourceUrl": "https://www.pebco.ag/news/private-equity-experte-carsten-fetzner-verstaerkt-unser-team/",
+          "date": "2021-04-01"
+        }
+      ],
+      "likelyPriorities": [
+        "Likely cares about efficient advisory delivery and client trust.",
+        "Likely interested in tools that support repeatable consulting processes."
+      ],
+      "provenance": {
+        "sourceUrl": "https://pebco.ag/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Heiko Then",
+      "role": "Senior Partner",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Leadership team mention",
+          "summary": "Named on the site as part of the senior team alongside other partners.",
+          "sourceUrl": "https://www.pebco.ag/news/private-equity-experte-carsten-fetzner-verstaerkt-unser-team/",
+          "date": "2021-04-01"
+        }
+      ],
+      "likelyPriorities": [
+        "Likely cares about financial advisory and operational execution.",
+        "Likely interested in better visibility across deal and client work."
+      ],
+      "provenance": {
+        "sourceUrl": "https://pebco.ag/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "new_hire",
+      "title": "Carsten Fetzner joins PEBCO as Senior Partner and shareholder",
+      "detail": "He joined on 1 April 2021 to lead Private Equity and M&A.",
+      "date": "2021-04-01",
+      "sourceUrl": "https://www.pebco.ag/news/private-equity-experte-carsten-fetzner-verstaerkt-unser-team/"
+    },
+    {
+      "type": "content",
+      "title": "Published article on M&A in the middle market",
+      "detail": "Home page highlights \"M&A im Mittelstand: Was Käufer heute kritisch prüfen\".",
+      "sourceUrl": "https://pebco.ag/"
+    },
+    {
+      "type": "award",
+      "title": "Top Consultant recognition",
+      "detail": "The site says PEBCO was awarded Top Consultant multiple times and counts among the best middle-market advisors in Germany.",
+      "sourceUrl": "https://pebco.ag/"
+    },
+    {
+      "type": "content",
+      "title": "Published article on investor conference participation",
+      "detail": "News page covers the 15th German Investors Conference and PEBCO's role in it.",
+      "date": "2018-10-16",
+      "sourceUrl": "https://www.pebco.ag/news/adjust-ag-war-mitveranstalter-der-15-deutschen-investorenkonferenz/"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the fact that PEBCO explicitly positions itself as a long term partner for investors, then connect Fintalo to making that kind of advisory work more structured and repeatable. Because their site signals a relationship driven, hands on style rather than a heavy process or portal based workflow, avoid sounding like you are trying to replace their client interaction. The best hook is faster deal coordination, cleaner buyer and document management, and less email and Excel sprawl, framed as something that supports their existing way of working.",
+    "objections": [
+      {
+        "objection": "We are a small team, so we do not need a platform.",
+        "counter": "Small teams often feel the pain of scattered deal work most acutely. Fintalo is meant to reduce coordination overhead without adding a lot of process, so it can save time even when the team is lean."
+      },
+      {
+        "objection": "Our advisory work is relationship driven, we do not want software to get in the way.",
+        "counter": "That is exactly why the pitch should stay lightweight. Fintalo is a back office operating layer for NDA handling, document release, and buyer management, not a replacement for the advisor relationship."
+      },
+      {
+        "objection": "We already manage deals fine with email and Excel.",
+        "counter": "That works until a process gets more active, more buyers are involved, or visibility gets messy. A short demo can show whether Fintalo would simply make the current workflow cleaner without forcing a big change."
+      }
+    ],
+    "openingEmail": {
+      "subject": "Quick idea for PEBCO",
+      "body": "Hi Ralf,\n\nYou say you prefer to work with investors long term, and that stood out to me. Fintalo helps M&A advisors keep that kind of work organized in one place, with NDA workflows, buyer management, stage gated document release, and secure collaboration instead of email and Excel sprawl.\n\nWould you be open to a short demo to see if it could fit the way PEBCO runs deals?\n\nBest,",
+      "groundedFact": "You prefer to work with investors long term."
+    }
+  },
+  "score": {
+    "total": 33,
+    "band": "long_shot",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 3,
+        "max": 25,
+        "rationale": "Deal count not stated on the public site."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 10,
+        "max": 20,
+        "rationale": "~4 people: very small, so fewer seats and a faster decision."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "4 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:19:04.660Z",
+  "sources": [
+    "https://pebco.ag/",
+    "https://www.pebco.ag/news/private-equity-experte-carsten-fetzner-verstaerkt-unser-team/",
+    "https://www.pebco.ag/impuls/risikomanagement-projekte-erfolgreich-steuern/",
+    "https://www.pebco.ag/impuls/unternehmensberatung-im-mittelstand-was-sie-wissen-sollten/",
+    "https://www.pebco.ag/impuls/liquiditaetsplanung-der-erfolgsfaktor-eines-jeden-unternehmens/",
+    "https://www.pebco.ag/news/adjust-ag-war-mitveranstalter-der-15-deutschen-investorenkonferenz/"
+  ],
+  "unverified": [
+    "team_size_estimate, only 4 named senior people were visible in the provided pages, full headcount not stated.",
+    "tombstone_count, no completed transaction total or distinct tombstones were visible in the provided pages.",
+    "cities, only Ettlingen and Karlsruhe were explicitly stated, no other office cities found.",
+    "people focus, only Carsten Fetzner had a clearly stated specialty on the provided pages.",
+    "process_email_based, no explicit deal workflow by email, phone, or spreadsheets was stated.",
+    "mentions_data_room, no data room or VDR mention found.",
+    "has_client_portal, no client login or portal found."
+  ],
+  "isSample": false
+}

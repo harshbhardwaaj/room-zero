@@ -1,0 +1,223 @@
+{
+  "id": "consulting-group-stuttgart-de",
+  "firm": {
+    "name": "CGS Consulting Group Stuttgart",
+    "url": "https://consulting-group-stuttgart.de/",
+    "oneLiner": "M&A and business sale advisory for owner-managed B2B service companies in southern Germany, with support for sell-side, buy-side, succession, valuation, and restructuring.",
+    "teamSizeEstimate": 3,
+    "cities": [
+      "Stuttgart",
+      "München"
+    ],
+    "services": [
+      "Firmenverkauf",
+      "Unternehmenskauf",
+      "Firmennachfolge",
+      "Unternehmensbewertung",
+      "Unternehmenswert steigern",
+      "Restrukturierungsberatung",
+      "M&A Beratung",
+      "Unternehmensverkauf Beratung"
+    ],
+    "sectors": [
+      "B2B-Dienstleister",
+      "Technische Dienstleister",
+      "IT- und spezialisierte Serviceunternehmen",
+      "Personalintensive B2B-Dienstleister",
+      "Spezialisierte Nischenanbieter im Mittelstand",
+      "Maschinenbau",
+      "IT und Software",
+      "Gebäudereinigung",
+      "Logistik und Spedition",
+      "Pflegedienste",
+      "Personaldienstleister",
+      "E-Commerce und Onlinehandel",
+      "Handwerk",
+      "Industrie",
+      "Healthcare"
+    ],
+    "tombstoneCount": null,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": true,
+      "hasClientPortal": false,
+      "evidence": [
+        "\"Wir strukturieren den Datenraum, koordinieren Rückfragen\""
+      ]
+    },
+    "fitNotes": [
+      "Clear fit for an AI-native deal platform because they run structured sell-side and buy-side processes with explicit due diligence and data room handling.",
+      "They focus on owner-managed mid-market service businesses, where repeatable workflow support and document coordination can add value.",
+      "No client portal is mentioned, so there is no evidence of a self-serve deal platform today.",
+      "Their site emphasizes discretion and process control, which suggests interest in tools that improve speed, consistency, and information management."
+    ],
+    "provenance": {
+      "sourceUrl": "https://consulting-group-stuttgart.de/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Klaus Thieme",
+      "role": "Geschäftsführer",
+      "focus": "Sell-side and buy-side process leadership",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page role listing",
+          "summary": "Listed as Geschäftsführer and described as supporting entrepreneurs in strategic acquisition and firm sale processes.",
+          "sourceUrl": "https://consulting-group-stuttgart.de/ueber-uns/ma-nachfolge/unternehmenskauf/"
+        }
+      ],
+      "likelyPriorities": [
+        "[Inference] Faster qualification of targets and buyers",
+        "[Inference] Better process control across outreach, diligence, and closing",
+        "[Inference] Tools that preserve discretion while reducing manual coordination"
+      ],
+      "provenance": {
+        "sourceUrl": "https://consulting-group-stuttgart.de/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Dr. Jens Hamberger",
+      "role": "Geschäftsführer",
+      "focus": "Finance, restructuring, negotiation, and transaction process",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page role listing",
+          "summary": "Listed as Geschäftsführer and described as bringing experience from financing, restructuring, and negotiation.",
+          "sourceUrl": "https://consulting-group-stuttgart.de/ueber-uns/ma-nachfolge/unternehmenskauf/"
+        }
+      ],
+      "likelyPriorities": [
+        "[Inference] Deal workflow that supports complex financing and negotiation",
+        "[Inference] Better visibility into risks and transaction structure",
+        "[Inference] Efficient handling of diligence and buyer communication"
+      ],
+      "provenance": {
+        "sourceUrl": "https://consulting-group-stuttgart.de/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Steffen Hofstetter",
+      "role": "Business Consultant",
+      "focus": "Economic analysis and valuation",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page role listing",
+          "summary": "Listed as Business Consultant and responsible for economic analysis and valuation of target companies.",
+          "sourceUrl": "https://consulting-group-stuttgart.de/ueber-uns/ma-nachfolge/unternehmenskauf/"
+        }
+      ],
+      "likelyPriorities": [
+        "[Inference] Faster valuation workflows",
+        "[Inference] Cleaner data preparation for buyer review",
+        "[Inference] Consistent analysis of value drivers and risks"
+      ],
+      "provenance": {
+        "sourceUrl": "https://consulting-group-stuttgart.de/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Published firm sale checklist article",
+      "detail": "Blog post titled \"Unternehmensverkauf Checkliste: Die wichtigsten Punkte\" published on 25. August 2023.",
+      "date": "2023-08-25",
+      "sourceUrl": "https://consulting-group-stuttgart.de/unternehmensverkauf-checkliste/"
+    },
+    {
+      "type": "content",
+      "title": "Active blog with deal-related articles and listings",
+      "detail": "Blog page shows multiple articles and deal listings such as \"Unternehmensverkauf Indikatives Angebot richtig bewerten und prüfen\" and \"#50714 Ambulanter Pflegedienst zu verkaufen\".",
+      "sourceUrl": "https://consulting-group-stuttgart.de/blog/"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the fact that they explicitly structure the data room and coordinate questions, because that is exactly where Fintalo removes email and spreadsheet sprawl without changing their advisory process. Position Fintalo as a way to keep anonymous outreach, controlled information release, and diligence in one place, which fits their discretion-first style. Avoid a generic AI pitch or anything that sounds like replacing the advisor, and do not lead with broad CRM language. The strongest why-now is that their current workflow already depends on controlled information release, so a short demo can show how to make that cleaner and faster.",
+    "objections": [
+      {
+        "objection": "We already manage deals with email and a data room process.",
+        "counter": "That is exactly the workflow Fintalo is built around, it keeps the same control points but reduces the manual back and forth across email, Excel, and file sharing."
+      },
+      {
+        "objection": "Our process is highly discreet, and we do not want buyer communication getting messy.",
+        "counter": "Fintalo is designed for stage-gated release and controlled outreach, so you can keep anonymity and only share what is approved at each step."
+      },
+      {
+        "objection": "We are a small team, so adding software may be more overhead than help.",
+        "counter": "For a small team, the value is usually less coordination work, fewer status checks, and a cleaner handoff across outreach, diligence, and closing."
+      }
+    ],
+    "openingEmail": {
+      "subject": "A cleaner way to run controlled deal flow",
+      "body": "Hi Klaus,\n\nI noticed you structure the data room and coordinate questions as part of your transaction process. Fintalo is an AI-native M&A operating system that keeps NDA workflows, controlled document release, buyer management, and diligence in one place, so the process stays discreet without the email and Excel sprawl.\n\nWould it be worth a short demo to see if this could save your team some coordination time on live mandates?\n\nBest,",
+      "groundedFact": "I noticed you structure the data room and coordinate questions as part of your transaction process.",
+      "groundedFactSourceUrl": "https://consulting-group-stuttgart.de/"
+    }
+  },
+  "score": {
+    "total": 43,
+    "band": "long_shot",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 10,
+        "max": 35,
+        "rationale": "runs data rooms (warm to the category)"
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 3,
+        "max": 25,
+        "rationale": "Deal count not stated on the public site."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 10,
+        "max": 20,
+        "rationale": "~3 people: very small, so fewer seats and a faster decision."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "2 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:18:37.349Z",
+  "sources": [
+    "https://consulting-group-stuttgart.de/",
+    "https://consulting-group-stuttgart.de/ueber-uns/ma-nachfolge/unternehmenskauf/",
+    "https://consulting-group-stuttgart.de/firmenverkauf/branchenloesungen-firmenverkauf/",
+    "https://consulting-group-stuttgart.de/firmenverkauf/",
+    "https://consulting-group-stuttgart.de/blog/",
+    "https://consulting-group-stuttgart.de/unternehmensverkauf-checkliste/"
+  ],
+  "unverified": [
+    "team_size_estimate, only 3 named team members were visible on the team page; full firm headcount not stated.",
+    "tombstone_count, no total completed transactions stated and visible tombstones were not reliably countable from the provided pages.",
+    "process_email_based, the pages describe process steps but do not explicitly say they run deals by email or phone.",
+    "has_client_portal, no client login or portal was stated on the site."
+  ],
+  "isSample": false
+}

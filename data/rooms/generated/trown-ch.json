@@ -1,0 +1,222 @@
+{
+  "id": "trown-ch",
+  "firm": {
+    "name": "Trown Partners",
+    "url": "https://trown.ch/",
+    "oneLiner": "Trown Partners is an independent, owner-managed M&A advisory firm focused on the sale, valuation, and succession planning of Swiss SMEs.",
+    "teamSizeEstimate": 3,
+    "cities": [
+      "Zürich"
+    ],
+    "services": [
+      "Firmenverkauf",
+      "Unternehmensbewertung",
+      "Nachfolgeregelung",
+      "Firmenkauf",
+      "Due Diligence Beratung",
+      "Kaufvertragsverhandlung"
+    ],
+    "sectors": [
+      "Schweizer KMU",
+      "Industrie",
+      "IT / Software",
+      "ICT",
+      "Handel",
+      "Hauswartung",
+      "Kälte- und Klimatechnik",
+      "E-Commerce",
+      "Baunebenbranche",
+      "Medizinaltechnik",
+      "Elektroinstallation",
+      "Produktion",
+      "Immobilie"
+    ],
+    "tombstoneCount": 19,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear fit for an AI-native deal platform because they run a structured sell-side process with buyer outreach, document creation, and negotiation.",
+      "They explicitly handle due diligence and contract work, so a workflow layer around tasks, documents, and buyer tracking could be relevant.",
+      "Their focus is Swiss SMEs across many sectors, which suggests repeatable process needs rather than highly bespoke one-off work.",
+      "No client portal or data room is mentioned, so there may be room for modernizing the transaction workflow."
+    ],
+    "provenance": {
+      "sourceUrl": "https://trown.ch/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Dr. Patrick Eggimann",
+      "role": "Partner",
+      "focus": "Valuation, company sales, contract negotiations",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Partner at Trown Partners",
+          "summary": "Named as Partner on the team page and described as experienced in valuation and company sales.",
+          "sourceUrl": "https://trown.ch/team/"
+        }
+      ],
+      "likelyPriorities": [
+        "Efficient buyer and document management during live mandates.",
+        "Better visibility into deal progress and negotiation status.",
+        "Tools that support valuation and transaction workflow consistency."
+      ],
+      "provenance": {
+        "sourceUrl": "https://trown.ch/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Paul Monn",
+      "role": "Partner",
+      "focus": "Succession planning, company sales, process leadership",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Partner at Trown Partners",
+          "summary": "Named as Partner and described as having led numerous succession and company sale processes.",
+          "sourceUrl": "https://trown.ch/team/"
+        }
+      ],
+      "likelyPriorities": [
+        "A structured process that keeps owners focused on operations.",
+        "Faster coordination across buyers, documents, and closing steps.",
+        "Ways to scale a lean advisory team without losing personal service."
+      ],
+      "provenance": {
+        "sourceUrl": "https://trown.ch/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Serge Stapfer",
+      "role": "Partner",
+      "focus": "Valuation, transaction multiples, company sales",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Partner at Trown Partners",
+          "summary": "Named as Partner and described as responsible for valuations and analysis of transaction multiples.",
+          "sourceUrl": "https://trown.ch/team/"
+        }
+      ],
+      "likelyPriorities": [
+        "Reliable valuation workflows and comparable tracking.",
+        "Cleaner handoffs from valuation to sale execution.",
+        "Tools that reduce manual coordination in transaction work."
+      ],
+      "provenance": {
+        "sourceUrl": "https://trown.ch/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Published news page with recent deal-related items",
+      "detail": "News page lists items such as \"Neue Dynamik bei der Freecem Sagl\", \"Trown Partners erstellt Bewertung für Orderfox\", and \"Übergabe der 100-jährigen Dietrich AG\".",
+      "sourceUrl": "https://trown.ch/news/"
+    },
+    {
+      "type": "content",
+      "title": "Stated founding year and origin",
+      "detail": "Team page says the company was founded in 2021 by three former Business Broker AG employees.",
+      "sourceUrl": "https://trown.ch/team/"
+    },
+    {
+      "type": "content",
+      "title": "Claims over 250 completed transactions",
+      "detail": "About page states \"über 250 erfolgreich abgeschlossenen Transaktionen\".",
+      "sourceUrl": "https://trown.ch/firma-verkaufen/"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the fact that Trown Partners says it has completed over 250 successful transactions, then position Fintalo as a way to keep that pace manageable without adding admin burden. They look like a lean, partner-led Swiss SME advisory, so the message should be about cleaner buyer coordination, controlled document release, and clearer deal status, not a big enterprise transformation. Avoid generic AI hype and avoid implying they need to replace their advisory process, since their value is personal service and hands-on execution.",
+    "objections": [
+      {
+        "objection": "We already manage deals well with email and our current process.",
+        "counter": "That is common in lean advisory teams. Fintalo is meant to reduce the back-and-forth around buyer management, document sharing, and status tracking, while keeping the process you already use."
+      },
+      {
+        "objection": "We are a small team, so a new platform may be too much overhead.",
+        "counter": "That is exactly where a lighter operating system helps. The goal is to save time on coordination, not add another layer of work, and a short demo can show whether it fits a small partner-led team."
+      },
+      {
+        "objection": "Our mandates are confidential, so we are cautious about new tools.",
+        "counter": "That is fair. Fintalo is built for secure collaboration and stage-gated release, so you can control who sees what and when, rather than relying on scattered email threads."
+      }
+    ],
+    "openingEmail": {
+      "subject": "A simpler way to run live mandates",
+      "body": "Hi Trown Partners team,\n\nI noticed you mention having completed over 250 successful transactions. For a lean advisory team, that usually means a lot of buyer coordination, document sharing, and status tracking to keep tight.\n\nFintalo is an AI-native M&A operating system that helps firms manage NDA workflows, buyer communication, stage-gated document release, and deal progress in one place instead of across email and spreadsheets.\n\nWould it be worth a short demo to see whether it could save your team time on live mandates?\n\nBest,",
+      "groundedFact": "Trown Partners says it has completed over 250 successful transactions.",
+      "groundedFactSourceUrl": "https://trown.ch/firma-verkaufen/"
+    }
+  },
+  "score": {
+    "total": 50,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 20,
+        "max": 25,
+        "rationale": "19 deals shown: steady deal flow."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 10,
+        "max": 20,
+        "rationale": "~3 people: very small, so fewer seats and a faster decision."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "3 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:20:26.129Z",
+  "sources": [
+    "https://trown.ch/",
+    "https://trown.ch/team/",
+    "https://trown.ch/referenzen/",
+    "https://trown.ch/kontakt-formular/",
+    "https://trown.ch/firma-verkaufen/",
+    "https://trown.ch/news/"
+  ],
+  "unverified": [
+    "team_size_estimate, only three partners are named on the team page, broader headcount not stated.",
+    "cities, only Zürich is explicitly listed as an office location.",
+    "tombstone_count, the page states over 250 transactions, but the visible reference list was used because the exact total is not separately structured in the provided text.",
+    "tech_signals.mentions_data_room, no data room, Datenraum, or VDR mentioned on the provided pages.",
+    "tech_signals.has_client_portal, no client login or portal mentioned on the provided pages."
+  ],
+  "isSample": false
+}

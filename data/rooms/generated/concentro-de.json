@@ -1,0 +1,242 @@
+{
+  "id": "concentro-de",
+  "firm": {
+    "name": "Concentro",
+    "url": "https://concentro.de/",
+    "oneLiner": "Concentro is a mid-market advisory focused on increasing, realizing, and restoring enterprise value through transparency, transactions, and turnaround work.",
+    "teamSizeEstimate": 45,
+    "cities": [
+      "Nürnberg",
+      "München",
+      "Leipzig",
+      "Stuttgart",
+      "Hamburg"
+    ],
+    "services": [
+      "Transparenz",
+      "Transaktion",
+      "Turnaround",
+      "integrierte Unternehmensplanung",
+      "Unternehmenssteuerung",
+      "Kosten- und Ergebnisrechnung",
+      "Finanzierung",
+      "Unternehmensverkauf",
+      "Unternehmenskauf",
+      "Investorensuche",
+      "Unternehmensbewertung",
+      "Restrukturierung",
+      "Sanierung",
+      "Liquiditätssteuerung",
+      "Konsolidierung"
+    ],
+    "sectors": [
+      "Mittelstand",
+      "Fahrzeugbau",
+      "Software",
+      "Konsumgüter",
+      "Elektrotechnik",
+      "Gebäudedienste",
+      "Maschinenbau",
+      "Anlagenbau",
+      "Holzverarbeitung",
+      "Energie",
+      "Versorgung",
+      "Logistik",
+      "Recycling",
+      "Entsorgung",
+      "CRM-Software",
+      "Hygieneprodukte",
+      "Intensivpflege",
+      "Technologie",
+      "Dönerworld",
+      "Fliesenprofile",
+      "technische Systeme"
+    ],
+    "tombstoneCount": 350,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Strong fit for an AI-native deal platform because they run many transactions and publish deal news and case studies.",
+      "They emphasize process support from preparation to buyer identification to closing, which suggests workflow-heavy execution.",
+      "They already reference transparency, planning, and transaction support, so tooling around diligence, document handling, and pipeline management could be relevant.",
+      "No explicit data room or client portal is stated on the site, so the current workflow stack is unverified."
+    ],
+    "provenance": {
+      "sourceUrl": "https://concentro.de/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Manuel Giese",
+      "role": "Managing Partner",
+      "focus": "Transaktion and Mittelstand advisory",
+      "footprint": [
+        {
+          "kind": "quote",
+          "title": "Perspektiven für den Mittelstand",
+          "summary": "He is quoted in a publication about global competition and strategic consequences for German mid-market companies.",
+          "sourceUrl": "https://concentro.de/"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: transaction execution quality and buyer coverage",
+        "Inference: maintaining a strong mid-market positioning",
+        "Inference: scalable deal process management"
+      ],
+      "provenance": {
+        "sourceUrl": "https://concentro.de/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Sebastian Mink",
+      "role": "Managing Partner",
+      "footprint": [],
+      "likelyPriorities": [
+        "Inference: transaction delivery and team productivity",
+        "Inference: cross-office coordination",
+        "Inference: client experience"
+      ],
+      "provenance": {
+        "sourceUrl": "https://concentro.de/",
+        "verified": true,
+        "note": "Name and role from the site; no further public footprint found."
+      }
+    },
+    {
+      "name": "Michael Raab",
+      "role": "Managing Partner",
+      "footprint": [],
+      "likelyPriorities": [
+        "Inference: deal execution and advisory quality",
+        "Inference: operational efficiency",
+        "Inference: repeatable process support"
+      ],
+      "provenance": {
+        "sourceUrl": "https://concentro.de/",
+        "verified": true,
+        "note": "Name and role from the site; no further public footprint found."
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "new_hire",
+      "title": "Pierre André Schneider expands the partnership",
+      "detail": "Concentro opens its fifth location in Hamburg and names Pierre André Schneider as a new Managing Partner.",
+      "date": "2026-07-01",
+      "sourceUrl": "https://concentro.de/Insights/"
+    },
+    {
+      "type": "other",
+      "title": "Hamburg office launch",
+      "detail": "The site says Concentro opens its fifth location in Hamburg.",
+      "date": "2026-07-01",
+      "sourceUrl": "https://concentro.de/Insights/"
+    },
+    {
+      "type": "award",
+      "title": "brand eins and Statista recognition for 2025",
+      "detail": "The firm says it was again awarded by brand eins and Statista as one of the best consultants in 2025.",
+      "sourceUrl": "https://concentro.de/"
+    },
+    {
+      "type": "content",
+      "title": "Published deal news and case studies",
+      "detail": "The site publishes deal news, whitepapers, events, and case studies across transparency, transaction, and turnaround.",
+      "sourceUrl": "https://concentro.de/Insights/"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the fact that Concentro is expanding its footprint, specifically that it has opened a fifth location in Hamburg. That is a clean why-now signal and a natural bridge to a short conversation about whether their current deal process is keeping pace across offices and mandates. Avoid leading with generic M&A productivity claims or anything that sounds like a broad software pitch, since they already position around transaction, turnaround, and advisory quality.",
+    "objections": [
+      {
+        "objection": "We already have a process for NDA, buyer outreach, and data sharing.",
+        "counter": "That makes sense. Fintalo is not meant to replace your advisory judgment, just to reduce the email, Excel, and data-room sprawl around the process so the team can run deals more consistently."
+      },
+      {
+        "objection": "We are a consulting-led firm, not a platform-heavy shop.",
+        "counter": "Understood. The demo would be focused on how the workflow supports advisors, especially stage-gated document release, buyer management, and secure collaboration, without changing how you advise clients."
+      },
+      {
+        "objection": "We do not have time for a long vendor review.",
+        "counter": "Fair. The ask is only for a short demo, so you can quickly judge whether it is relevant before spending any real time on it."
+      }
+    ],
+    "openingEmail": {
+      "subject": "Concentro's Hamburg expansion",
+      "body": "Hi Concentro team,\n\nI saw that Concentro has opened its fifth location in Hamburg. When firms are adding offices, deal coordination across buyers, NDAs, and document release usually gets harder fast.\n\nFintalo is an AI-native M&A operating system that replaces the email, Excel, and scattered data-room sprawl around a deal. It helps advisors manage NDAs, buyer/investor outreach, stage-gated document release, and secure collaboration in one place.\n\nWould you be open to a short demo to see whether it could be useful for your team?\n\nBest,",
+      "groundedFact": "Concentro has opened its fifth location in Hamburg.",
+      "groundedFactSourceUrl": "https://concentro.de/Insights/"
+    }
+  },
+  "score": {
+    "total": 59,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 25,
+        "max": 25,
+        "rationale": "350+ tombstones: a busy, active dealmaker."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 14,
+        "max": 20,
+        "rationale": "~45 people: mid-size, still a strong fit."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "4 live \"why now\" signal(s); 1 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-20T09:11:03.498Z",
+  "sources": [
+    "https://concentro.de/",
+    "https://concentro.de/unser_team/",
+    "https://concentro.de/referenzen/",
+    "https://concentro.de/transparenz/",
+    "https://concentro.de/fuer-unternehmen/",
+    "https://concentro.de/Insights/"
+  ],
+  "unverified": [
+    "cities, Hamburg is mentioned as a fifth location but the site footer still lists four offices; office status needs confirmation",
+    "services, exact service taxonomy beyond the listed categories is not fully stated",
+    "sectors, industry list is inferred from case studies and deal examples, not presented as a formal sector focus list",
+    "people.focus, only names and roles are explicitly stated for most senior leaders",
+    "people.footprint for most people, no public interviews, talks, or bylines were provided on the pages",
+    "has_client_portal, no client login or portal is stated",
+    "mentions_data_room, no data room or VDR is explicitly mentioned",
+    "process_email_based, no explicit email-based deal workflow sentence was found",
+    "team_size_estimate, headcount is stated as 45 or 45+ but exact current count is not stated",
+    "tombstone_count, 350+ published transactions is stated, but the exact total is not stated"
+  ],
+  "isSample": false
+}

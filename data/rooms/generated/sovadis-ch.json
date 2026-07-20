@@ -1,0 +1,190 @@
+{
+  "id": "sovadis-ch",
+  "firm": {
+    "name": "SOVADIS",
+    "url": "https://sovadis.ch/",
+    "oneLiner": "SOVADIS is an M&A advisory firm focused on selling, buying, valuing, and succession planning for Swiss SMEs, especially in the Mittelstand.",
+    "teamSizeEstimate": null,
+    "cities": [
+      "Zuchwil",
+      "Biberist"
+    ],
+    "services": [
+      "company sales",
+      "company acquisitions",
+      "business valuation",
+      "succession advisory",
+      "due diligence and confidentiality",
+      "sales documentation",
+      "buyer search and selection",
+      "contract and tax support"
+    ],
+    "sectors": [
+      "SMEs",
+      "Mittelstand",
+      "manufacturing",
+      "trade",
+      "engineering",
+      "construction-related businesses",
+      "fiduciary services",
+      "environmental management",
+      "agriculture"
+    ],
+    "tombstoneCount": 15,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear fit for an AI-native deal platform because they run structured SME sale and succession processes.",
+      "They explicitly mention secure data rooms and due diligence, which suggests document-heavy transactions.",
+      "They rely on databases, direct outreach, and network-based buyer search, so workflow tooling could help.",
+      "No client portal is stated, so there is no evidence of an existing digital deal platform."
+    ],
+    "provenance": {
+      "sourceUrl": "https://sovadis.ch/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Reto Schoch",
+      "role": "Geschäftsführer",
+      "focus": "M&A, succession advisory, company sales",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Company leadership",
+          "summary": "Named as the managing director and public face of SOVADIS.",
+          "sourceUrl": "https://sovadis.ch/about/"
+        },
+        {
+          "kind": "role_note",
+          "title": "Succession expert and owner",
+          "summary": "Described as \"Nachfolge-Experte & Inhaber\" on the succession advisory page.",
+          "sourceUrl": "https://sovadis.ch/unternehmensnachfolge/nachfolgeberatung/"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: efficient buyer sourcing and qualification",
+        "Inference: structured process support from teaser to closing",
+        "Inference: confidentiality and secure document handling"
+      ],
+      "provenance": {
+        "sourceUrl": "https://sovadis.ch/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Published 6-step succession process",
+      "detail": "The site lays out a six-phase process from preparation to handover.",
+      "sourceUrl": "https://sovadis.ch/unternehmensnachfolge/nachfolgeberatung/"
+    },
+    {
+      "type": "content",
+      "title": "Published 6-step sales process",
+      "detail": "The site describes a six-step company sale process including preparation, marketing, negotiations, due diligence, and handover.",
+      "sourceUrl": "https://sovadis.ch/firma-verkaufen/"
+    },
+    {
+      "type": "content",
+      "title": "Reference projects page",
+      "detail": "The firm publishes selected M&A reference projects and mandates.",
+      "sourceUrl": "https://sovadis.ch/firma-verkaufen/referenzen/"
+    },
+    {
+      "type": "content",
+      "title": "Interview and talks listed",
+      "detail": "The homepage lists an interview with Reto Schoch and video talks on succession topics.",
+      "sourceUrl": "https://sovadis.ch/"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the fact that SOVADIS publishes a structured six-step sales and succession process, because that signals they already think in stages, handoffs, and controlled information release. Position Fintalo as a way to make that process lighter, especially around buyer management, document release, and keeping diligence organized without email and Excel sprawl. Avoid generic AI hype or a broad CRM pitch, and do not lead with automation for its own sake, they will care more about confidentiality, process control, and speed to qualified buyers.",
+    "objections": [
+      {
+        "objection": "We already have a clear process, so we do not need another platform.",
+        "counter": "That is exactly the point, Fintalo is meant to support an existing process, not replace it. It helps run the same stages with less manual coordination and fewer dropped threads."
+      },
+      {
+        "objection": "Our deals are confidential, so we are cautious about new software.",
+        "counter": "Fintalo is built around secure collaboration and stage-gated document release, so you can control who sees what and when. It is designed to reduce risk, not add exposure."
+      },
+      {
+        "objection": "We are a small advisory team, so we do not want something heavy to implement.",
+        "counter": "That is fair, and the goal would be a short demo to see whether it actually simplifies your workflow. If it does not save time quickly, it is probably not worth pursuing."
+      }
+    ],
+    "openingEmail": {
+      "subject": "A simpler way to run your six-step M&A process",
+      "body": "Hi Reto,\n\nI saw that SOVADIS publishes a six-step company sale process. Firms with a clear process like that usually still end up juggling buyer lists, document sharing, and diligence updates across email and Excel.\n\nFintalo is an AI-native M&A operating system that helps advisors manage NDA workflows, buyer/investor coordination, stage-gated document release, and deal collaboration in one place.\n\nWould you be open to a short demo to see whether it could fit the way SOVADIS already works?\n\nBest,",
+      "groundedFact": "SOVADIS publishes a six-step company sale process.",
+      "groundedFactSourceUrl": "https://sovadis.ch/firma-verkaufen/"
+    }
+  },
+  "score": {
+    "total": 45,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 20,
+        "max": 25,
+        "rationale": "15 deals shown: steady deal flow."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 5,
+        "max": 20,
+        "rationale": "Team size not stated."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "4 live \"why now\" signal(s); 1 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:20:42.579Z",
+  "sources": [
+    "https://sovadis.ch/",
+    "https://sovadis.ch/about/",
+    "https://sovadis.ch/firma-verkaufen/referenzen/",
+    "https://sovadis.ch/unternehmensnachfolge/nachfolgeberatung/",
+    "https://sovadis.ch/firma-verkaufen/",
+    "https://www.sovadis.ch/firma-verkaufen/"
+  ],
+  "unverified": [
+    "team_size_estimate, no full team roster or headcount stated on the provided pages",
+    "cities, office locations are stated as Zuchwil and Biberist, but only city names were visible and no separate office count was given",
+    "tombstone_count, the page shows 15 reference items, but no total completed transaction count was stated",
+    "people, only one senior decision-maker was clearly named on the provided pages",
+    "signals dates, the listed content and interviews were undated on the provided pages",
+    "mentions_data_room: flag dropped, no explicit data-room wording in the evidence."
+  ],
+  "isSample": false
+}

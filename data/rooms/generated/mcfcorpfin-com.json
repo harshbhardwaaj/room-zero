@@ -1,0 +1,222 @@
+{
+  "id": "mcfcorpfin-com",
+  "firm": {
+    "name": "MCF Corporate Finance",
+    "url": "https://mcfcorpfin.com/",
+    "oneLiner": "MCF Corporate Finance is a corporate finance firm that specialises in mergers and acquisitions and debt advisory for middle-market and cross-border transactions.",
+    "teamSizeEstimate": 80,
+    "cities": [
+      "Frankfurt",
+      "Hamburg",
+      "Helsinki",
+      "London",
+      "Munich",
+      "Stockholm"
+    ],
+    "services": [
+      "M&A Advisory",
+      "Debt Advisory",
+      "Company Succession",
+      "Corporate Spin-Offs",
+      "Strategic M&A Advisory",
+      "Growth Capital",
+      "Private Equity Sell-Side Advisory",
+      "Buy-Side Advisory",
+      "Add-On Acquisitions"
+    ],
+    "sectors": [
+      "Business Services",
+      "Consumer",
+      "Industrials",
+      "Technology"
+    ],
+    "tombstoneCount": 1200,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Strong fit for an AI-native deal platform because they run many cross-border and sell-side transactions across multiple offices.",
+      "Their site emphasizes a tailored process, negotiation support, and transaction execution, which suggests workflow-heavy advisory work.",
+      "They publish frequent sector insights and transaction updates, which could benefit from faster research, pipeline, and deal-room tooling.",
+      "No client portal or data room is mentioned on the site, so the current stack is not visible from public pages."
+    ],
+    "provenance": {
+      "sourceUrl": "https://mcfcorpfin.com/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Stefan Mattern",
+      "role": "Managing leadership, operational leader since 2023",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "New Leadership Structure",
+          "summary": "Founding Partner Hans-Christoph Stadel handed over operational leadership to Stefan Mattern in 2023.",
+          "sourceUrl": "https://www.mcfcorpfin.com/about-mcf/",
+          "date": "2023"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: would care about scalable execution across offices and consistent deal quality.",
+        "Inference: may value tools that support leadership visibility into pipeline and transaction progress."
+      ],
+      "provenance": {
+        "sourceUrl": "https://mcfcorpfin.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Hans-Christoph Stadel",
+      "role": "Founding Partner, Executive Chairman",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "New Leadership Structure",
+          "summary": "The site says he transitioned into the role of Executive Chairman on the future Supervisory Board.",
+          "sourceUrl": "https://www.mcfcorpfin.com/about-mcf/",
+          "date": "2023"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: likely focused on firm positioning, client relationships, and long-term continuity.",
+        "Inference: may care about protecting relationship-driven advisory quality."
+      ],
+      "provenance": {
+        "sourceUrl": "https://mcfcorpfin.com/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Nils Petter Palmefors",
+      "role": "Partner",
+      "focus": "Business Services",
+      "footprint": [],
+      "likelyPriorities": [
+        "Inference: may care about sector-specific research and faster buyer mapping.",
+        "Inference: likely values tools that support repeatable sell-side execution."
+      ],
+      "provenance": {
+        "sourceUrl": "https://mcfcorpfin.com/",
+        "verified": true,
+        "note": "Name and role from the site; no further public footprint found."
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Cybersecurity Sector Insights | Q2 2026",
+      "detail": "Published on June 1, 2026.",
+      "date": "2026-06-01",
+      "sourceUrl": "https://www.mcfcorpfin.com/news/cybersecurity-sector-insights-q2-2026/"
+    },
+    {
+      "type": "content",
+      "title": "Q2 2026 | Market Insights from our M&A Sector Heads",
+      "detail": "Published on July 8, 2026.",
+      "date": "2026-07-08",
+      "sourceUrl": "https://www.mcfcorpfin.com/news/"
+    },
+    {
+      "type": "press",
+      "title": "MCF advised Fortaco on the sale of its steel fabrication and assembly operations to HANZA",
+      "detail": "Published on July 15, 2026.",
+      "date": "2026-07-15",
+      "sourceUrl": "https://www.mcfcorpfin.com/news/"
+    },
+    {
+      "type": "press",
+      "title": "MCF advised Truesec on the acquisition of Subset",
+      "detail": "Published on April 13, 2026.",
+      "date": "2026-04-13",
+      "sourceUrl": "https://www.mcfcorpfin.com/news/"
+    }
+  ],
+  "play": {
+    "angle": "Lead with their scale and repeatable execution, not with generic AI hype. MCF Corporate Finance has a clear advisory footprint across middle-market and cross-border M&A, so the best hook is that Fintalo helps teams run more deals with less email, Excel, and data-room friction while keeping partner oversight intact. Avoid implying they have a broken process or pitching a full rip-and-replace, since their site signals a tailored, client-specific approach and relationship-led advisory.",
+    "objections": [
+      {
+        "objection": "We already have a process that works, and our team is used to it.",
+        "counter": "That makes sense. Fintalo is not meant to replace your advisory process, just to reduce the manual coordination around NDAs, buyer tracking, document release, and status visibility so partners spend less time chasing updates."
+      },
+      {
+        "objection": "Our deals are bespoke, so a standard platform may not fit.",
+        "counter": "Agreed, and that is exactly why the demo should be short. Fintalo is built for stage-gated, configurable deal workflows, so the platform adapts to the way each mandate runs rather than forcing a rigid template."
+      },
+      {
+        "objection": "We are not looking for another system right now.",
+        "counter": "Understood. The ask is only for a brief look, because firms usually see value fastest when they can compare one live deal workflow against the current email and spreadsheet setup."
+      }
+    ],
+    "openingEmail": {
+      "subject": "Quick idea for MCF Corporate Finance",
+      "body": "Hi MCF Corporate Finance team,\n\nI noticed you cover M&A advisory, debt advisory, company succession, and add-on acquisitions across several offices. Fintalo is an AI-native M&A operating system that helps firms run deals in one place instead of across email, Excel, and scattered data rooms.\n\nIt can handle NDA workflows, buyer management, stage-gated document release, and deal tracking without changing the advisory relationship. Would you be open to a short demo to see if it could fit the way your team runs mandates?\n\nBest,",
+      "groundedFact": "I noticed you cover M&A advisory, debt advisory, company succession, and add-on acquisitions across several offices."
+    }
+  },
+  "score": {
+    "total": 53,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 25,
+        "max": 25,
+        "rationale": "1200+ tombstones: a busy, active dealmaker."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 8,
+        "max": 20,
+        "rationale": "~80 people: a larger firm, so a longer, more committee-driven sale."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "4 live \"why now\" signal(s); 2 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:18:19.378Z",
+  "sources": [
+    "https://mcfcorpfin.com/",
+    "https://www.mcfcorpfin.com/about-mcf/",
+    "https://www.mcfcorpfin.com/transactions/",
+    "https://www.mcfcorpfin.com/mergers-acquisitions/",
+    "https://www.mcfcorpfin.com/news/cybersecurity-sector-insights-q2-2026/",
+    "https://www.mcfcorpfin.com/news/"
+  ],
+  "unverified": [
+    "team_size_estimate, the site states 80+ professionals, exact headcount not stated.",
+    "tombstone_count, 1,200+ is stated, but exact completed transaction count not stated.",
+    "people, only a few senior names and roles are visible on the provided pages, not a full leadership roster.",
+    "has_client_portal, no client login or portal mentioned.",
+    "mentions_data_room, no data room or VDR mentioned.",
+    "process_email_based, no deal workflow described as email based."
+  ],
+  "isSample": false
+}

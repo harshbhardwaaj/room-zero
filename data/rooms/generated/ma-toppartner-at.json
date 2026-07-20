@@ -1,0 +1,187 @@
+{
+  "id": "ma-toppartner-at",
+  "firm": {
+    "name": "M&A TOP Partner",
+    "url": "https://ma-toppartner.at/",
+    "oneLiner": "Praxisbewährte M&A Beratung in Sachen Unternehmensnachfolge, Unternehmensverkauf und Unternehmenskauf für mittelständische Unternehmen.",
+    "teamSizeEstimate": 1,
+    "cities": [
+      "Graz",
+      "Hitzendorf bei Graz"
+    ],
+    "services": [
+      "Unternehmensnachfolge",
+      "Unternehmensverkauf",
+      "Unternehmenskauf",
+      "Unternehmensdarstellung",
+      "Unternehmensbewertung",
+      "Unternehmensberatung",
+      "Wachstums-Finanzierung",
+      "Akquisitionsfinanzierung",
+      "Übernahmefinanzierung",
+      "Unterstützung nach Verkauf"
+    ],
+    "sectors": [
+      "mittelständische Unternehmen",
+      "KMUs",
+      "Start-ups",
+      "Jungunternehmer",
+      "Franchisegeber",
+      "Unternehmen mit überdurchschnittlichem Potenzial"
+    ],
+    "tombstoneCount": null,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear fit for a deal platform because they run sell-side and buy-side M&A, including documentation, contacts, offers, negotiations, and due diligence.",
+      "They explicitly produce an Exposé or Informationsmemorandum, which suggests document-heavy workflows that could benefit from a structured deal room.",
+      "They emphasize exclusive mandates and close collaboration, so tooling that keeps buyers, documents, and approvals organized could be relevant.",
+      "No client portal or data room is stated on the site, so current workflow appears relationship and process driven rather than platform driven."
+    ],
+    "provenance": {
+      "sourceUrl": "https://ma-toppartner.at/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Mag. lic.oec. Christian Imboden",
+      "role": "Geschäftsführer",
+      "focus": "M&A, Unternehmensnachfolge, Unternehmensverkauf, Unternehmenskauf",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Impressum role listing",
+          "summary": "Named as Geschäftsführer and Gesellschafter of M&A TOP Partner.",
+          "sourceUrl": "https://www.ma-toppartner.at/impressum/"
+        },
+        {
+          "kind": "quote",
+          "title": "Website quote",
+          "summary": "Described as the firm's contact person and managing director on the home page.",
+          "sourceUrl": "https://ma-toppartner.at/"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: preserving confidentiality and controlled information sharing during transactions.",
+        "Inference: efficient buyer and investor communication across the deal process.",
+        "Inference: maintaining a hands-on advisory model with clear mandate control."
+      ],
+      "provenance": {
+        "sourceUrl": "https://ma-toppartner.at/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Published article, Das ewige Unternehmen",
+      "detail": "Long-form content on linking start-ups and stop-downs through networks and succession.",
+      "date": "2026-02-10",
+      "sourceUrl": "https://www.ma-toppartner.at/das-ewige-unternehmen/"
+    },
+    {
+      "type": "content",
+      "title": "Published article, Unternehmensdarstellung Exposé Informationsmemorandum",
+      "detail": "Explains how the firm prepares an Exposé or Informationsmemorandum and uses it in the sales process.",
+      "date": "2026-02-17",
+      "sourceUrl": "https://www.ma-toppartner.at/expose-unternehmensdarstellung-sales-memorandum-information-memorandum-informationsmemorandum/"
+    },
+    {
+      "type": "other",
+      "title": "Website states hundreds of completed transactions",
+      "detail": "The home page says the firm has already successfully handled hundreds of transactions.",
+      "sourceUrl": "https://ma-toppartner.at/"
+    }
+  ],
+  "play": {
+    "angle": "Lead with their clearly process-heavy, confidentiality-sensitive way of running sales, especially the fact that they hand out the Exposé only after a signed NDA and use it as the core buyer document. That makes Fintalo relevant as a way to keep NDA workflows, staged document release, and buyer communication in one controlled place, without adding another messy tool layer. Avoid sounding like a generic CRM pitch or talking about broad AI automation first, since a hands-on boutique will care more about control, speed, and clean process than novelty.",
+    "objections": [
+      {
+        "objection": "We already manage this well with email and documents.",
+        "counter": "That is exactly the workflow Fintalo is meant to tighten, it keeps the same process but reduces back-and-forth, version confusion, and manual follow-up around NDAs and document release."
+      },
+      {
+        "objection": "We are a small, hands-on advisory firm, so a platform may be too much.",
+        "counter": "Fintalo is useful precisely for small teams that want more control without extra admin, because it centralizes the deal flow instead of adding another system to maintain."
+      },
+      {
+        "objection": "Confidentiality is critical, and we cannot risk exposing buyer data.",
+        "counter": "Understood, and that is why the pitch should focus on permissioned access, stage-gated release, and tracked sharing rather than open collaboration."
+      }
+    ],
+    "openingEmail": {
+      "subject": "A quick idea for your NDA and Exposé workflow",
+      "body": "Hi Christian,\n\nI noticed you hand out the Exposé only after a signed confidentiality agreement, which is a very controlled way to run a process. Fintalo helps M&A advisors keep that same discipline in one place, with NDA workflows, stage-gated document release, and buyer communication instead of scattered email threads.\n\nWould you be open to a short demo to see if it could save you time on the next mandate?\n\nBest,",
+      "groundedFact": "You hand out the Exposé only after a signed confidentiality agreement.",
+      "groundedFactSourceUrl": "https://www.ma-toppartner.at/expose-unternehmensdarstellung-sales-memorandum-information-memorandum-informationsmemorandum/"
+    }
+  },
+  "score": {
+    "total": 31,
+    "band": "long_shot",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 3,
+        "max": 25,
+        "rationale": "Deal count not stated on the public site."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 8,
+        "max": 20,
+        "rationale": "~1 people: a larger firm, so a longer, more committee-driven sale."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "3 live \"why now\" signal(s); 1 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:21:25.330Z",
+  "sources": [
+    "https://ma-toppartner.at/",
+    "https://www.ma-toppartner.at/ma-top-partner-grosses-ganzes/",
+    "https://www.ma-toppartner.at/leistungsangebote/",
+    "https://www.ma-toppartner.at/expose-unternehmensdarstellung-sales-memorandum-information-memorandum-informationsmemorandum/",
+    "https://www.ma-toppartner.at/impressum/",
+    "https://www.ma-toppartner.at/das-ewige-unternehmen/"
+  ],
+  "unverified": [
+    "team_size_estimate, only one named person was visible on the provided pages, no full team roster found.",
+    "tombstone_count, no distinct deal tombstones or stated total count beyond 'hunderte Transaktionen' found.",
+    "cities, only Graz and Hitzendorf bei Graz were stated, no separate office list found.",
+    "people, only one senior decision-maker was clearly named on the provided pages.",
+    "tech_signals.mentions_data_room, no explicit data room, Datenraum, or VDR mention found.",
+    "tech_signals.has_client_portal, no client login or portal found.",
+    "why-now signals, no dated mandate, hire, award, or office move found beyond dated content pages.",
+    "process_email_based: the site describes hands-on advisory but never names email, Excel or spreadsheets as the deal-management tool; not counted as an email-based process."
+  ],
+  "isSample": false
+}

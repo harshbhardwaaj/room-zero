@@ -1,0 +1,228 @@
+{
+  "id": "steinbeis-finance-de",
+  "firm": {
+    "name": "Steinbeis M&A",
+    "url": "https://steinbeis-finance.de/",
+    "oneLiner": "M&A advisory for the German mid-market, focused on planning and executing company transactions.",
+    "teamSizeEstimate": 15,
+    "cities": [
+      "Hamburg",
+      "Berlin",
+      "Köln",
+      "Frankfurt am Main",
+      "Stuttgart",
+      "München",
+      "Zürich",
+      "Wien"
+    ],
+    "services": [
+      "Unternehmensverkauf",
+      "Unternehmenskauf",
+      "Transaktionsstrategie",
+      "Kapitalstrukturierung",
+      "Fit for Transaction",
+      "Strategische Unternehmensentwicklung",
+      "Unternehmens-, Markt- und Technologiebewertung",
+      "Familien- und Nachfolgeberatung",
+      "Digital M&A / Corporate Venturing"
+    ],
+    "sectors": [
+      "Business Services",
+      "Distribution & E-Commerce",
+      "Financial Services",
+      "Food & Beverage",
+      "Healthcare",
+      "Industrials",
+      "Construction, Infrastructure & Energy",
+      "Information & Communication Technology",
+      "Logistics & Transportation",
+      "Real Estate"
+    ],
+    "tombstoneCount": 250,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear mid-market M&A focus with explicit buy-side, sell-side, strategy, and capital structure work.",
+      "Strong sector coverage across industrial, healthcare, ICT, and services makes it a plausible fit for a broad deal platform.",
+      "The site emphasizes process expertise and transaction execution, which suggests room for workflow and collaboration tooling.",
+      "No data room or client portal is mentioned on the pages provided."
+    ],
+    "provenance": {
+      "sourceUrl": "https://steinbeis-finance.de/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Martin G. Schmitt",
+      "role": "Partner",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page listing",
+          "summary": "Named as a partner on the team page and shown as one of the firm's advisors.",
+          "sourceUrl": "https://steinbeis-finance.de/team"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: efficient deal execution across multiple mandates.",
+        "Inference: maintaining partner-led client relationships and transaction quality."
+      ],
+      "provenance": {
+        "sourceUrl": "https://steinbeis-finance.de/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Steffen Lohrer",
+      "role": "Partner",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page listing",
+          "summary": "Named as a partner on the team page and shown among the firm's advisors.",
+          "sourceUrl": "https://steinbeis-finance.de/team"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: supporting founder and mid-market transaction processes.",
+        "Inference: preserving a high-touch advisory model."
+      ],
+      "provenance": {
+        "sourceUrl": "https://steinbeis-finance.de/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Daniel Möhrke",
+      "role": "Partner",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Article partner mention",
+          "summary": "Listed as a partner in the article about the emotional side of company sales.",
+          "sourceUrl": "https://steinbeis-finance.de/insights/warum-warum-warum-die-emotionale-seite-des-firmenverkaufs-so-wichtig-ist-258"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: seller readiness and founder transition support.",
+        "Inference: advisory content that helps build trust with owners."
+      ],
+      "provenance": {
+        "sourceUrl": "https://steinbeis-finance.de/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Insights page publishes current market and firm content",
+      "detail": "The insights page shows dated posts from 2025 and 2026, including market reports and transaction updates.",
+      "date": "2026-07-14",
+      "sourceUrl": "https://steinbeis-finance.de/insights"
+    },
+    {
+      "type": "press",
+      "title": "Transparento partnership announcement",
+      "detail": "The insights page includes a post about Steinbeis M&A accompanying Transparento in a partnership with Ascendia Gruppe.",
+      "date": "2025-11-24",
+      "sourceUrl": "https://steinbeis-finance.de/insights"
+    },
+    {
+      "type": "press",
+      "title": "FAUDI Aviation asset deal",
+      "detail": "The insights page includes a post about Steinbeis M&A accompanying a strategic asset deal for FAUDI Aviation.",
+      "date": "2026-04-09",
+      "sourceUrl": "https://steinbeis-finance.de/insights"
+    }
+  ],
+  "play": {
+    "angle": "Lead with the fact that Steinbeis M&A publishes current market and firm content on its insights page, which suggests a team that cares about staying active and visible across live mandates. Position Fintalo as a way to make that kind of high-touch, partner-led process easier to run without adding email and Excel sprawl, but avoid sounding like you want to replace their advisory model or over-focus on generic CRM features. The best hook is faster, cleaner execution across multiple active deals, especially if they are handling several mandates at once.",
+    "objections": [
+      {
+        "objection": "We already run deals fine with email and our current tools.",
+        "counter": "That is common, and Fintalo is not meant to replace judgment or the advisory workflow. It just removes the manual coordination around NDA handling, buyer tracking, document release, and status updates so the team spends less time chasing information."
+      },
+      {
+        "objection": "Our process is partner-led and high touch, so software can get in the way.",
+        "counter": "Agreed, which is why the pitch should be about control, not automation for its own sake. Fintalo keeps the partner in charge while making it easier to manage multiple stakeholders and stage-gated sharing in one place."
+      },
+      {
+        "objection": "We do not want a long implementation or a heavy platform rollout.",
+        "counter": "Fair concern. The demo should focus on how quickly a live deal can be set up and whether it fits your current process, rather than a broad transformation project."
+      }
+    ],
+    "openingEmail": {
+      "subject": "A simpler way to run live mandates",
+      "body": "Hi Steinbeis M&A team,\n\nI noticed your insights page is active with current market and transaction updates. For firms running several live mandates at once, we built Fintalo to keep NDA workflows, buyer management, and document release in one place instead of across email and Excel.\n\nIt is meant to support a partner-led process, not replace it. If useful, I would be glad to show you a short demo and get your take on whether it would fit how you run deals today.\n\nBest,",
+      "groundedFact": "I noticed your insights page is active with current market and transaction updates.",
+      "groundedFactSourceUrl": "https://steinbeis-finance.de/insights"
+    }
+  },
+  "score": {
+    "total": 65,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 25,
+        "max": 25,
+        "rationale": "250+ tombstones: a busy, active dealmaker."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 20,
+        "max": 20,
+        "rationale": "~15 people: the boutique sweet spot for Fintalo."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "3 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:22:18.493Z",
+  "sources": [
+    "https://steinbeis-finance.de/",
+    "https://steinbeis-finance.de/team",
+    "https://steinbeis-finance.de/leistungen/transaktionsstrategie",
+    "https://steinbeis-finance.de/leistungen",
+    "https://steinbeis-finance.de/insights/warum-warum-warum-die-emotionale-seite-des-firmenverkaufs-so-wichtig-ist-258",
+    "https://steinbeis-finance.de/insights"
+  ],
+  "unverified": [
+    "team_size_estimate, the site names 15 partners on the home page but does not state total firm headcount.",
+    "tombstone_count, the site states more than 250 successful transactions, but the exact total is not independently verifiable from the pages.",
+    "people.focus, no explicit functional focus stated for the named partners on the provided pages.",
+    "people.footprint beyond role notes, no public interviews, talks, or bylines were provided for the named people on these pages.",
+    "has_client_portal, no client login or deal portal mentioned.",
+    "mentions_data_room, no data room or VDR mentioned.",
+    "process_email_based, the site describes advisory capabilities but not a deal workflow run by email or phone."
+  ],
+  "isSample": false
+}

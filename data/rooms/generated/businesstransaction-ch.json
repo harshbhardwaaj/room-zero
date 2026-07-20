@@ -1,0 +1,207 @@
+{
+  "id": "businesstransaction-ch",
+  "firm": {
+    "name": "Business Transaction",
+    "url": "https://businesstransaction.ch/",
+    "oneLiner": "A Zurich based M&A boutique for Swiss SME succession, company sales, business valuation, and buyer matching.",
+    "teamSizeEstimate": 8,
+    "cities": [
+      "Zürich"
+    ],
+    "services": [
+      "Firmenverkauf",
+      "Nachfolgeregelung",
+      "Unternehmensbewertung",
+      "Käufersuche",
+      "Deal-Strukturierung",
+      "Verhandlungen",
+      "Vertragsabschluss",
+      "Firmenkauf"
+    ],
+    "sectors": [
+      "Schweizer KMU",
+      "Handel",
+      "Dienstleistung",
+      "Handwerk / Baugewerbe",
+      "Industrie / Produktion",
+      "IT / Software",
+      "E-Commerce",
+      "Grosshandel",
+      "Gesundheit / Soziales"
+    ],
+    "tombstoneCount": 300,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear fit for an AI native deal platform because they run a structured, multi step SME sale process and explicitly use matching software.",
+      "They publish a large reference set, which suggests repeatable transaction workflows and a need to manage many live mandates.",
+      "Their site emphasizes data driven valuation, buyer matching, and process structure, all areas where software can add leverage.",
+      "No data room or client portal is stated on the site, so the current workflow appears more process and content led than platform led."
+    ],
+    "provenance": {
+      "sourceUrl": "https://businesstransaction.ch/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Yves Süess",
+      "role": "M&A-Berater und Spezialist für KMU-Nachfolge",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page listing",
+          "summary": "Named on the team page as part of the M&A advisory team.",
+          "sourceUrl": "https://businesstransaction.ch/meet-the-team"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: efficient buyer matching for SME mandates.",
+        "Inference: tools that support structured, repeatable transaction execution."
+      ],
+      "provenance": {
+        "sourceUrl": "https://businesstransaction.ch/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Fabian Rudin",
+      "role": "M&A-Berater und Spezialist für KMU-Nachfolge",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page listing",
+          "summary": "Named on the team page as part of the M&A advisory team.",
+          "sourceUrl": "https://businesstransaction.ch/meet-the-team"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: faster deal execution with clear process visibility.",
+        "Inference: better handling of valuation and buyer outreach workflows."
+      ],
+      "provenance": {
+        "sourceUrl": "https://businesstransaction.ch/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Cédric Schöllhorn",
+      "role": "M&A-Berater und Spezialist für KMU-Nachfolge",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page listing",
+          "summary": "Named on the team page as part of the M&A advisory team.",
+          "sourceUrl": "https://businesstransaction.ch/meet-the-team"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: scalable support for multiple live mandates.",
+        "Inference: tools that help standardize diligence and transaction coordination."
+      ],
+      "provenance": {
+        "sourceUrl": "https://businesstransaction.ch/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Insights portal launched as a knowledge hub",
+      "detail": "The site describes Insights as \"das grösste Wissensportal zum Thema Nachfolge in der Schweiz\" and publishes articles and resources.",
+      "sourceUrl": "https://businesstransaction.ch/insights"
+    },
+    {
+      "type": "content",
+      "title": "Published transaction references and case studies",
+      "detail": "The references page shows 300+ firm sales and multiple named transactions across years 2023 to 2026.",
+      "sourceUrl": "https://businesstransaction.ch/referenzen"
+    }
+  ],
+  "play": {
+    "angle": "Lead with their scale and process maturity, not a generic AI pitch. Business Transaction publicly shows 300+ firm sale references and positions itself as a knowledge hub for succession, so the angle is that Fintalo can help them run more mandates with the same team while keeping buyer outreach, document release, and deal tracking organized. Avoid sounding like a replacement for their advisory judgment, and avoid over-indexing on a data room pitch, since their site does not signal that as the core pain. The best hook is a short demo framed around faster, more repeatable execution across live SME succession mandates.",
+    "objections": [
+      {
+        "objection": "We already have a process and tools that work for our mandates.",
+        "counter": "That is exactly why a short demo can be useful, Fintalo is meant to sit alongside the advisory process and remove the email and Excel sprawl, not force a new methodology."
+      },
+      {
+        "objection": "Our work is relationship driven, software will not help with buyer matching or negotiations.",
+        "counter": "Agreed, the advisory work stays human, Fintalo just makes the operational side cleaner, from NDA flow to stage gated document release and tracking who has seen what."
+      },
+      {
+        "objection": "We do not want a heavy implementation for a boutique team.",
+        "counter": "Understood, the goal would be a lightweight walkthrough to see whether it fits a small team handling multiple live mandates without adding admin burden."
+      }
+    ],
+    "openingEmail": {
+      "subject": "A simple way to run more SME succession mandates",
+      "body": "Hi Business Transaction team,\n\nI saw you have 300+ firm sale references, which suggests you are running a lot of live mandates and keeping a high standard of execution. Fintalo is an AI-native M&A operating system that helps boutiques manage NDA workflows, buyer outreach, document release, and deal tracking in one place instead of email and Excel. I thought it might be relevant for your team if you want a cleaner way to handle repeatable succession processes without adding admin.\n\nWould you be open to a short demo next week?\n\nBest,",
+      "groundedFact": "I saw you have 300+ firm sale references.",
+      "groundedFactSourceUrl": "https://businesstransaction.ch/referenzen"
+    }
+  },
+  "score": {
+    "total": 65,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 25,
+        "max": 25,
+        "rationale": "300+ tombstones: a busy, active dealmaker."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 20,
+        "max": 20,
+        "rationale": "~8 people: the boutique sweet spot for Fintalo."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "2 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:20:07.797Z",
+  "sources": [
+    "https://businesstransaction.ch/",
+    "https://businesstransaction.ch/meet-the-team",
+    "https://businesstransaction.ch/referenzen",
+    "https://businesstransaction.ch/firmenangebote",
+    "https://businesstransaction.ch/firma-verkaufen",
+    "https://businesstransaction.ch/insights"
+  ],
+  "unverified": [
+    "cities, only Zürich is explicitly stated as an office city.",
+    "services, exact internal service packaging beyond the listed offerings is not fully stated.",
+    "sectors, the site lists several sectors, but not a complete industry focus statement for every niche.",
+    "people, only names and roles are shown for the team members, no deeper public footprint found on these pages."
+  ],
+  "isSample": false
+}

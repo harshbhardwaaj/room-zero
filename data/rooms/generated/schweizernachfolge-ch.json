@@ -1,0 +1,209 @@
+{
+  "id": "schweizernachfolge-ch",
+  "firm": {
+    "name": "Schweizer Nachfolge Experten",
+    "url": "https://schweizernachfolge.ch/",
+    "oneLiner": "M&A advisory for Swiss SMEs, supporting business sales, acquisitions, and valuations.",
+    "teamSizeEstimate": 5,
+    "cities": [
+      "St. Gallen",
+      "Zürich"
+    ],
+    "services": [
+      "Mergers & Acquisitions",
+      "Unternehmensverkauf",
+      "Unternehmenskauf",
+      "Unternehmensbewertung",
+      "Consulting",
+      "Due Diligence Prüfungen",
+      "Finanzierungsstrukturierungen",
+      "Unternehmensanalysen",
+      "Unternehmensstrategie",
+      "Businesspläne",
+      "Unternehmensgründungen",
+      "Kapitalerhöhungen",
+      "Grenzübergreifende Unternehmensstrukturierungen",
+      "Corporate Governance",
+      "Immobilienbewertungen und Beratungen",
+      "Unternehmenstreuhand"
+    ],
+    "sectors": [
+      "KMU",
+      "Schweizer Unternehmen"
+    ],
+    "tombstoneCount": 8,
+    "techSignals": {
+      "processEmailBased": false,
+      "mentionsDataRoom": false,
+      "hasClientPortal": false,
+      "evidence": []
+    },
+    "fitNotes": [
+      "Clear focus on SME M&A, so a deal platform could fit their core workflow.",
+      "They emphasize end to end transaction support, which suggests coordination-heavy processes that software could streamline.",
+      "They publish multiple success stories and blog content, indicating an active advisory practice with repeatable deal work.",
+      "No data room or client portal is mentioned, so current digital process maturity is not visible from the site."
+    ],
+    "provenance": {
+      "sourceUrl": "https://schweizernachfolge.ch/",
+      "verified": true
+    }
+  },
+  "people": [
+    {
+      "name": "Patrick Jermann",
+      "role": "Geschäftsführer Senior Consultant",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page listing",
+          "summary": "Listed as Geschäftsführer Senior Consultant on the team page.",
+          "sourceUrl": "https://www.schweizernachfolge.ch/ueber-uns/team"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: efficient deal coordination across buyers and sellers.",
+        "Inference: tools that help manage transaction steps and communication."
+      ],
+      "provenance": {
+        "sourceUrl": "https://schweizernachfolge.ch/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Christoph Jermann",
+      "role": "Mitglied der Geschäftsleitung Senior Consultant",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page listing",
+          "summary": "Listed as Mitglied der Geschäftsleitung Senior Consultant on the team page.",
+          "sourceUrl": "https://www.schweizernachfolge.ch/ueber-uns/team"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: process consistency across mandates.",
+        "Inference: better visibility into active transactions."
+      ],
+      "provenance": {
+        "sourceUrl": "https://schweizernachfolge.ch/",
+        "verified": true
+      }
+    },
+    {
+      "name": "Armin Signer",
+      "role": "Senior Consultant",
+      "footprint": [
+        {
+          "kind": "role_note",
+          "title": "Team page listing",
+          "summary": "Listed as Senior Consultant on the team page.",
+          "sourceUrl": "https://www.schweizernachfolge.ch/ueber-uns/team"
+        }
+      ],
+      "likelyPriorities": [
+        "Inference: practical workflow support for advisory work.",
+        "Inference: reducing manual follow up in deal execution."
+      ],
+      "provenance": {
+        "sourceUrl": "https://schweizernachfolge.ch/",
+        "verified": true
+      }
+    }
+  ],
+  "signals": [
+    {
+      "type": "content",
+      "title": "Blog publishes M&A and succession content",
+      "detail": "The blog includes posts such as Management-Buy-In, Digitalisierung im Unternehmen, Wie KI die Unternehmensbewertung revolutioniert, and Rückblick 2024: Vier erfolgreiche Unternehmensnachfolgen.",
+      "sourceUrl": "https://www.schweizernachfolge.ch/blog"
+    },
+    {
+      "type": "content",
+      "title": "Success stories page expanded",
+      "detail": "The references page shows multiple completed succession stories, including Soraton SA, Emi AG Gebäudetechnik, Ernst Autotransport AG, Revidas Treuhand & Revision AG, Maya Popcorn AG, Geska AG, Gut Transport AG, Aerni AG, and Bützer AG.",
+      "sourceUrl": "https://www.schweizernachfolge.ch/referenzen"
+    }
+  ],
+  "play": {
+    "angle": "Lead with their clearly process driven advisory style and the fact that they already position themselves as end to end transaction specialists. Fintalo should be framed as a way to remove the email and Excel sprawl that slows that kind of work, especially around buyer coordination, document release, and keeping multiple mandates visible without adding process overhead. Avoid sounding like a generic CRM or a heavy enterprise system, and do not overfocus on data rooms since their site does not signal that as a current pain point. The strongest hook is a short demo showing how they can run a mandate more cleanly with less manual follow up.",
+    "objections": [
+      {
+        "objection": "We already manage deals by email and our current process works fine.",
+        "counter": "That is common, and Fintalo is not meant to replace judgment, just the repetitive coordination around it. The value is fewer follow ups, cleaner stage gating, and less time lost across scattered threads and files."
+      },
+      {
+        "objection": "We are a small team, so we do not need a big platform.",
+        "counter": "Smaller teams usually feel the coordination burden most when several mandates move at once. Fintalo is lightweight enough to help a boutique stay organized without adding admin work."
+      },
+      {
+        "objection": "We do not want to change our client communication flow.",
+        "counter": "Fintalo can sit alongside your existing workflow and make the process more structured without forcing a new way of working for every message. The goal is to reduce friction, not create it."
+      }
+    ],
+    "openingEmail": {
+      "subject": "A simpler way to run mandates",
+      "body": "Hi Patrick,\n\nYou describe yourselves as your clients' transaction specialist through the entire sales process. Fintalo helps advisory teams keep that process in one place, with NDA workflows, buyer management, stage gated document release, and secure collaboration instead of email and Excel sprawl.\n\nWould you be open to a short demo to see whether it could save your team time on live mandates?\n\nBest,",
+      "groundedFact": "You describe yourselves as your clients' transaction specialist through the entire sales process."
+    }
+  },
+  "score": {
+    "total": 54,
+    "band": "promising",
+    "components": [
+      {
+        "key": "tech",
+        "label": "Tech-maturity fit",
+        "points": 0,
+        "max": 35,
+        "rationale": "No tech-maturity signals found on the public site."
+      },
+      {
+        "key": "deals",
+        "label": "Deal activity",
+        "points": 14,
+        "max": 25,
+        "rationale": "8 deals shown: moderate volume."
+      },
+      {
+        "key": "size",
+        "label": "Firm-size fit",
+        "points": 20,
+        "max": 20,
+        "rationale": "~5 people: the boutique sweet spot for Fintalo."
+      },
+      {
+        "key": "service",
+        "label": "Service / sector fit",
+        "points": 12,
+        "max": 12,
+        "rationale": "Core M&A / corporate-finance advisory: the bullseye."
+      },
+      {
+        "key": "timeliness",
+        "label": "Timeliness (why-now)",
+        "points": 8,
+        "max": 8,
+        "rationale": "2 live \"why now\" signal(s); 3 decision-maker(s) with a public footprint to reference"
+      }
+    ]
+  },
+  "status": "new",
+  "generatedAt": "2026-07-18T11:21:10.392Z",
+  "sources": [
+    "https://schweizernachfolge.ch/",
+    "https://www.schweizernachfolge.ch/ueber-uns/team",
+    "https://www.schweizernachfolge.ch/referenzen",
+    "https://www.schweizernachfolge.ch/dienstleistungen/unser-angebotsportfolio",
+    "https://www.schweizernachfolge.ch/blog"
+  ],
+  "unverified": [
+    "team_size_estimate, only 5 team and board members are shown on the team page, no firm headcount stated",
+    "tombstone_count, no total completed transactions stated, counted 8 visible success stories",
+    "sectors, no explicit industry vertical focus beyond KMU and Swiss companies stated",
+    "people.focus, no public professional footprint beyond role listings on the team page",
+    "signals dates, the site shows content but no publication dates in the provided page text",
+    "process_email_based: the site describes hands-on advisory but never names email, Excel or spreadsheets as the deal-management tool; not counted as an email-based process."
+  ],
+  "isSample": false
+}
