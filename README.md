@@ -64,10 +64,14 @@ lib/
   scoring.ts            the fit formula, pure and tested
   grounding.ts          thin-read judgement, pure and tested
   brand.ts              which build this is, and all its copy
+  features.ts           what a deployed build turns off, and why
+  session-rooms.ts      browser-side holding pen for live-generated rooms
 data/
   rooms/samples.ts      3 hand-authored fixtures, flagged isSample
-  rooms/generated/      22 real pipeline runs, version-controlled
-docs/design-principles.md   the UX and copy rules this repo is held to
+  rooms/generated/      23 real pipeline runs, version-controlled
+docs/
+  design-principles.md  the UX and copy rules this repo is held to
+  UI-SWEEP-LOG.md       the full change history, sweep by sweep
 ```
 
 Generated rooms live in `data/`, not `.cache/`, on purpose. `.cache/html/` is disposable (tens of MB, re-fetchable). The rooms are content: they cost real API calls and they are what a reviewer comes here to read.
